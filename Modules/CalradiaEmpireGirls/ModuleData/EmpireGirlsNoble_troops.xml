@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+	<!-- #region NPCs -->
+	<!-- Culture: Imperial -->
+	<!-- #region Imperial Noble Troop Tree -->
+	<NPCCharacter id="imperial_girl_nt2"
+				  default_group="Infantry"
+				  is_female="true"
+				  level="11"
+				  name="{=}Imperial Vigla Prospect"	 
+				  occupation="Soldier"
+				  is_basic_troop="true"
+				  culture="Culture.empire">
+		<face>
+			<BodyProperties version="4" age="22.65" weight="0.75" build="0.375"  key="0005900D0000200AB8708B856647425773608B3ABDFFF44CE89ABB79366988660056B603F5A3504B000000000000000000000000000000000000000026B42003"  />
+			<BodyPropertiesMax version="4" age="33.01" weight="0.3" build="0.01"  key="0022840FC0FC3010A97B966BAAA6A79686E8889B96BAB8984BBBBF9D88DA774802704724F796C9A80000000000000FFE00000000000000000000000050E04000"  />
+		</face>
+		<skills>
+			<skill id="Athletics" value="40" />
+			<skill id="Riding" value="20" />
+			<skill id="OneHanded" value="40" />
+			<skill id="TwoHanded" value="20" />
+			<skill id="Polearm" value="40" />
+			<skill id="Bow" value="10" />
+			<skill id="Crossbow" value="15" />
+			<skill id="Throwing" value="10" />
+		</skills>
+    <Equipments>
+      <EquipmentRoster>
+			<equipment slot="Item0" id="Item.western_spear_2_t2" />
+			<equipment slot="Item1" id="Item.light_horsemans_kite_shield" />
+			<equipment slot="Item2" id="Item.empire_sword_1_t2" />
+			<equipment slot="Head" id="Item.imperial_mail_coif" />
+			<equipment slot="Cape" id="Item.scarf" />
+			<equipment slot="Body" id="Item.padded_cloth_with_strips" />
+			<equipment slot="Gloves" id="Item.padded_vambrace" />
+			<equipment slot="Leg" id="Item.fine_town_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+			<equipment slot="Item0" id="Item.western_spear_2_t2" />
+			<equipment slot="Item1" id="Item.light_horsemans_kite_shield" />
+			<equipment slot="Item2" id="Item.light_mace_t3" />
+			<equipment slot="Head" id="Item.imperial_mail_coif" />
+			<equipment slot="Body" id="Item.padded_cloth_with_strips" />
+			<equipment slot="Gloves" id="Item.padded_vambrace" />
+			<equipment slot="Leg" id="Item.fine_town_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+			<equipment slot="Item0" id="Item.western_spear_2_t2" />
+			<equipment slot="Item1" id="Item.light_horsemans_kite_shield" />
+			<equipment slot="Item2" id="Item.empire_sword_1_t2" />
+			<equipment slot="Cape" id="Item.wrapped_scarf" />
+			<equipment slot="Body" id="Item.padded_cloth_with_strips" />
+			<equipment slot="Gloves" id="Item.padded_vambrace" />
+			<equipment slot="Leg" id="Item.fine_town_boots" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t1" civilian="true" />
+    </Equipments>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.imperial_girl_nct3" />
+			<upgrade_target id="NPCCharacter.imperial_girl_nit3" />
+		</upgrade_targets>
+	</NPCCharacter>
+	<NPCCharacter id="imperial_girl_nct3"
+				  default_group="Cavalry"
+				  is_female="true"
+				  level="16"
+				  name="{=}Imperial Vigla Equite"	 
+                  upgrade_requires="ItemCategory.horse"
+				  occupation="Soldier"
+				  culture="Culture.empire">
+		<face>
+			<BodyProperties version="4" age="22.65" weight="0.75" build="0.375"  key="0005900D0000200AB8708B856647425773608B3ABDFFF44CE89ABB79366988660056B603F5A3504B000000000000000000000000000000000000000026B42003"  />
+			<BodyPropertiesMax version="4" age="33.01" weight="0.3" build="0.01"  key="0022840FC0FC3010A97B966BAAA6A79686E8889B96BAB8984BBBBF9D88DA774802704724F796C9A80000000000000FFE00000000000000000000000050E04000"  />
+		</face>
+		<skills>
+			<skill id="Athletics" value="40" />
+			<skill id="Riding" value="80" />
+			<skill id="OneHanded" value="70" />
+			<skill id="TwoHanded" value="30" />
+			<skill id="Polearm" value="90" />
+			<skill id="Bow" value="20" />
+			<skill id="Crossbow" value="10" />
+			<skill id="Throwing" value="20" />
+		</skills>
+    <Equipments>
+      <EquipmentRoster>
+			<equipment slot="Item0" id="Item.western_spear_3_t3" />
+			<equipment slot="Item1" id="Item.western_kite_shield" />
+			<equipment slot="Item2" id="Item.empire_sword_2_t3" />
+			<equipment slot="Head" id="Item.ironlame_nasalhelm_over_imperial_cloth" />
+			<equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
+			<equipment slot="Body" id="Item.imperial_lamellar_over_leather" />
+			<equipment slot="Gloves" id="Item.guarded_padded_vambrace" />
+			<equipment slot="Leg" id="Item.leather_cavalier_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+			<equipment slot="Item0" id="Item.western_spear_3_t3" />
+			<equipment slot="Item1" id="Item.western_kite_shield" />
+			<equipment slot="Item2" id="Item.empire_sword_2_t3" />
+			<equipment slot="Head" id="Item.ironlame_nasalhelm_over_imperial_padding" />
+			<equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
+			<equipment slot="Body" id="Item.imperial_lamellar_over_leather" />
+			<equipment slot="Gloves" id="Item.guarded_padded_vambrace" />
+			<equipment slot="Leg" id="Item.leather_cavalier_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+			<equipment slot="Item0" id="Item.western_spear_3_t3" />
+			<equipment slot="Item1" id="Item.western_kite_shield" />
+			<equipment slot="Item2" id="Item.empire_sword_2_t3" />
+			<equipment slot="Head" id="Item.ironlame_nasalhelm_over_imperial_cloth" />
+			<equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
+			<equipment slot="Body" id="Item.imperial_lamellar_over_leather" />
+			<equipment slot="Gloves" id="Item.guarded_padded_vambrace" />
+			<equipment slot="Leg" id="Item.leather_cavalier_boots" />
+      </EquipmentRoster>
+		<equipment slot="Horse"
+				   id="Item.empire_horse" />
+		<equipment slot="HorseHarness"
+				   id="Item.stripped_leather_harness" />
+      <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
+    </Equipments>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.imperial_girl_nct4" />
+		</upgrade_targets>
+	</NPCCharacter>
+	<NPCCharacter id="imperial_girl_nct4"
+				  default_group="Cavalry"
+				  is_female="true"
+				  level="21"
+				  name="{=}Imperial Contrarii"	 
+				  occupation="Soldier"
+				  culture="Culture.empire">
+		<face>
+			<BodyProperties version="4" age="22.65" weight="0.75" build="0.375"  key="0005900D0000200AB8708B856647425773608B3ABDFFF44CE89ABB79366988660056B603F5A3504B000000000000000000000000000000000000000026B42003"  />
+			<BodyPropertiesMax version="4" age="33.01" weight="0.3" build="0.01"  key="0022840FC0FC3010A97B966BAAA6A79686E8889B96BAB8984BBBBF9D88DA774802704724F796C9A80000000000000FFE00000000000000000000000050E04000"  />
+		</face>
+		<skills>
+			<skill id="Athletics" value="50" />
+			<skill id="Riding" value="80" />
+			<skill id="OneHanded" value="100" />
+			<skill id="TwoHanded" value="40" />
+			<skill id="Polearm" value="140" />
+			<skill id="Bow" value="20" />
+			<skill id="Crossbow" value="15" />
+			<skill id="Throwing" value="40" />
+		</skills>
+    <Equipments>
+      <EquipmentRoster>
+			<equipment slot="Item0" id="Item.western_spear_4_t4" />
+			<equipment slot="Item1" id="Item.heavy_horsemans_kite_shield" />
+			<equipment slot="Item2" id="Item.empire_sword_2_t3" />
+			<equipment slot="Head" id="Item.feathered_spangenhelm_over_imperial_coif" />
+			<equipment slot="Cape" id="Item.studded_imperial_neckguard" />
+			<equipment slot="Body" id="Item.empire_horseman_armor" />
+			<equipment slot="Gloves" id="Item.lordly_padded_mitten" />
+			<equipment slot="Leg" id="Item.strapped_mail_chausses" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+			<equipment slot="Item0" id="Item.western_spear_4_t4" />
+			<equipment slot="Item1" id="Item.heavy_horsemans_kite_shield" />
+			<equipment slot="Item2" id="Item.empire_sword_2_t3" />
+			<equipment slot="Head" id="Item.ironlame_feathered_spangenhelm_over_leather" />
+			<equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
+			<equipment slot="Body" id="Item.empire_horseman_armor" />
+			<equipment slot="Gloves" id="Item.lordly_padded_mitten" />
+			<equipment slot="Leg" id="Item.strapped_mail_chausses" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+			<equipment slot="Item0" id="Item.western_spear_4_t4" />
+			<equipment slot="Item1" id="Item.heavy_horsemans_kite_shield" />
+			<equipment slot="Item2" id="Item.empire_sword_2_t3" />
+			<equipment slot="Head" id="Item.feathered_spangenhelm_over_imperial_coif" />
+			<equipment slot="Cape" id="Item.studded_imperial_neckguard" />
+			<equipment slot="Body" id="Item.empire_horseman_armor" />
+			<equipment slot="Gloves" id="Item.lordly_padded_mitten" />
+			<equipment slot="Leg" id="Item.strapped_mail_chausses" />
+      </EquipmentRoster>
+		<equipment slot="Horse"
+				   id="Item.empire_horse" />
+		<equipment slot="HorseHarness"
+				   id="Item.imperial_riding_harness" />
+      <EquipmentSet id="empire_troop_civilian_template_t1" civilian="true" />
+    </Equipments>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.imperial_girl_nct5" />
+		</upgrade_targets>
+	</NPCCharacter>		
+	<NPCCharacter id="imperial_girl_nct5"
+				  default_group="Cavalry"
+				  is_female="true"
+				  level="26"
+				  civilianTemplate="NPCCharacter.empire_troop_civilian_template_t3"
+				  name="{=}Imperial Cataphract"	 
+				  occupation="Soldier"
+				  culture="Culture.empire">
+		<face>
+			<BodyProperties version="4" age="22.65" weight="0.75" build="0.375"  key="0005900D0000200AB8708B856647425773608B3ABDFFF44CE89ABB79366988660056B603F5A3504B000000000000000000000000000000000000000026B42003"  />
+			<BodyPropertiesMax version="4" age="33.01" weight="0.3" build="0.01"  key="0022840FC0FC3010A97B966BAAA6A79686E8889B96BAB8984BBBBF9D88DA774802704724F796C9A80000000000000FFE00000000000000000000000050E04000"  />
+		</face>
+		<skills>
+			<skill id="Athletics" value="60" />
+			<skill id="Riding" value="160" />
+			<skill id="OneHanded" value="130" />
+			<skill id="TwoHanded" value="50" />
+			<skill id="Polearm" value="180" />
+			<skill id="Bow" value="20" />
+			<skill id="Crossbow" value="40" />
+			<skill id="Throwing" value="50" />
+		</skills>
+    <Equipments>
+      <EquipmentRoster>
+			<equipment slot="Item0" id="Item.empire_lance_2_t4" />
+			<equipment slot="Item1" id="Item.heavy_horsemans_kite_shield" />
+			<equipment slot="Item2" id="Item.empire_sword_5_t4" />
+			<equipment slot="Head" id="Item.empire_helmet_with_metal_strips" />
+			<equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
+			<equipment slot="Body" id="Item.lamellar_with_scale_skirt" />
+			<equipment slot="Gloves" id="Item.decorated_imperial_gauntlets" />
+			<equipment slot="Leg" id="Item.decorated_imperial_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+			<equipment slot="Item0" id="Item.empire_lance_2_t4" />
+			<equipment slot="Item1" id="Item.heavy_horsemans_kite_shield" />
+			<equipment slot="Item2" id="Item.empire_mace_3_t4" />
+			<equipment slot="Head" id="Item.empire_helmet_with_metal_strips" />
+			<equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
+			<equipment slot="Body" id="Item.lamellar_with_scale_skirt" />
+			<equipment slot="Gloves" id="Item.decorated_imperial_gauntlets" />
+			<equipment slot="Leg" id="Item.decorated_imperial_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+			<equipment slot="Item0" id="Item.empire_lance_2_t4" />
+			<equipment slot="Item1" id="Item.heavy_horsemans_kite_shield" />
+			<equipment slot="Item2" id="Item.empire_sword_5_t4" />
+			<equipment slot="Head" id="Item.empire_helmet_with_metal_strips" />
+			<equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
+			<equipment slot="Body" id="Item.lamellar_with_scale_skirt" />
+			<equipment slot="Gloves" id="Item.decorated_imperial_gauntlets" />
+			<equipment slot="Leg" id="Item.decorated_imperial_boots" />
+      </EquipmentRoster>
+		<equipment slot="Horse"
+				   id="Item.t2_empire_horse" />
+		<equipment slot="HorseHarness"
+				   id="Item.imperial_scale_barding" />
+      <EquipmentSet id="empire_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+		<upgrade_targets>
+      <upgrade_target id="NPCCharacter.imperial_girl_nct6" />
+		</upgrade_targets>
+	</NPCCharacter>
+	<NPCCharacter id="imperial_girl_nct6"
+				  default_group="Cavalry"
+				  is_female="true"
+				  level="31"
+				  name="{=}Imperial Clibanarii"	 
+				  occupation="Soldier"
+				  culture="Culture.empire">
+		<face>
+			<BodyProperties version="4" age="22.65" weight="0.75" build="0.375"  key="0005900D0000200AB8708B856647425773608B3ABDFFF44CE89ABB79366988660056B603F5A3504B000000000000000000000000000000000000000026B42003"  />
+			<BodyPropertiesMax version="4" age="33.01" weight="0.3" build="0.01"  key="0022840FC0FC3010A97B966BAAA6A79686E8889B96BAB8984BBBBF9D88DA774802704724F796C9A80000000000000FFE00000000000000000000000050E04000"  />
+		</face>
+		<skills>
+			<skill id="Athletics" value="80" />
+			<skill id="Riding" value="200" />
+			<skill id="OneHanded" value="180" />
+			<skill id="TwoHanded" value="60" />
+			<skill id="Polearm" value="260" />
+			<skill id="Bow" value="25" />
+			<skill id="Crossbow" value="50" />
+			<skill id="Throwing" value="60" />
+		</skills>
+    <Equipments>
+      <EquipmentRoster>
+			<equipment slot="Item0" id="Item.empire_lance_3_t5" />
+			<equipment slot="Item1" id="Item.empire_sword_5_t4" />
+			<equipment slot="Item2" id="Item.chivalric_kite_shield" />	
+			<equipment slot="Head" id="Item.imperial_goggled_helmet" />
+			<equipment slot="Cape" id="Item.imperial_lamellar_shoulders" />
+			<equipment slot="Body" id="Item.imperial_scale_armor" />
+			<equipment slot="Gloves" id="Item.lamellar_plate_gauntlets" />
+			<equipment slot="Leg" id="Item.lamellar_plate_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+			<equipment slot="Item0" id="Item.empire_lance_3_t5" />
+			<equipment slot="Item1" id="Item.empire_mace_5_t5" />
+			<equipment slot="Item2" id="Item.chivalric_kite_shield" />	
+			<equipment slot="Head" id="Item.imperial_goggled_helmet" />
+			<equipment slot="Cape" id="Item.pauldron_cape_a" />
+			<equipment slot="Body" id="Item.imperial_scale_armor" />
+			<equipment slot="Gloves" id="Item.lamellar_plate_gauntlets" />
+			<equipment slot="Leg" id="Item.lamellar_plate_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+			<equipment slot="Item0" id="Item.empire_lance_3_t5" />
+			<equipment slot="Item1" id="Item.empire_sword_5_t4" />
+			<equipment slot="Item2" id="Item.chivalric_kite_shield" />	
+			<equipment slot="Head" id="Item.imperial_goggled_helmet" />
+			<equipment slot="Cape" id="Item.imperial_lamellar_shoulders" />
+			<equipment slot="Body" id="Item.imperial_scale_armor" />
+			<equipment slot="Gloves" id="Item.lamellar_plate_gauntlets" />
+			<equipment slot="Leg" id="Item.lamellar_plate_boots" />
+     </EquipmentRoster>
+		<equipment slot="Horse"
+				   id="Item.t2_empire_horse" />
+		<equipment slot="HorseHarness"
+				   id="Item.imperial_scale_barding" />
+      <EquipmentSet id="empire_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+		<upgrade_targets></upgrade_targets>
+	</NPCCharacter>
+	<NPCCharacter id="imperial_girl_nit3"
+				  default_group="Infantry"
+				  is_female="true"
+				  level="16"
+				  civilianTemplate="NPCCharacter.empire_troop_civilian_template_t2"
+				  name="{=ihmjnit3}Imperial Vigla Infantry"	 
+				  occupation="Soldier"
+				  culture="Culture.empire">
+		<face>
+			<BodyProperties version="4" age="22.65" weight="0.75" build="0.375"  key="0005900D0000200AB8708B856647425773608B3ABDFFF44CE89ABB79366988660056B603F5A3504B000000000000000000000000000000000000000026B42003"  />
+			<BodyPropertiesMax version="4" age="33.01" weight="0.3" build="0.01"  key="0022840FC0FC3010A97B966BAAA6A79686E8889B96BAB8984BBBBF9D88DA774802704724F796C9A80000000000000FFE00000000000000000000000050E04000"  />
+		</face>
+		<skills>
+			<skill id="Athletics" value="70" />
+			<skill id="Riding" value="20" />
+			<skill id="OneHanded" value="90" />
+			<skill id="TwoHanded" value="30" />
+			<skill id="Polearm" value="90" />
+			<skill id="Bow" value="20" />
+			<skill id="Crossbow" value="20" />
+			<skill id="Throwing" value="20" />
+		</skills>
+    <Equipments>
+      <EquipmentRoster>
+			<equipment slot="Item0" id="Item.western_spear_3_t3" />
+			<equipment slot="Item1" id="Item.western_kite_shield" />
+			<equipment slot="Item2" id="Item.empire_sword_2_t3" />
+			<equipment slot="Item3" id="Item.imperial_throwing_spear_1_t4" />	
+			<equipment slot="Head" id="Item.ironlame_nasalhelm_over_imperial_cloth" />
+			<equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
+			<equipment slot="Body" id="Item.imperial_lamellar_over_leather" />
+			<equipment slot="Gloves" id="Item.guarded_padded_vambrace" />
+			<equipment slot="Leg" id="Item.leather_cavalier_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+			<equipment slot="Item0" id="Item.western_spear_3_t3" />
+			<equipment slot="Item1" id="Item.western_kite_shield" />
+			<equipment slot="Item2" id="Item.empire_sword_2_t3" />
+			<equipment slot="Item3" id="Item.imperial_throwing_spear_1_t4" />		
+			<equipment slot="Head" id="Item.ironlame_nasalhelm_over_imperial_padding" />
+			<equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
+			<equipment slot="Body" id="Item.imperial_lamellar_over_leather" />
+			<equipment slot="Gloves" id="Item.guarded_padded_vambrace" />
+			<equipment slot="Leg" id="Item.leather_cavalier_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+			<equipment slot="Item0" id="Item.western_spear_3_t3" />
+			<equipment slot="Item1" id="Item.western_kite_shield" />
+			<equipment slot="Item2" id="Item.empire_sword_2_t3" />
+			<equipment slot="Item3" id="Item.imperial_throwing_spear_1_t4" />		
+			<equipment slot="Head" id="Item.ironlame_nasalhelm_over_imperial_cloth" />
+			<equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
+			<equipment slot="Body" id="Item.imperial_lamellar_over_leather" />
+			<equipment slot="Gloves" id="Item.guarded_padded_vambrace" />
+			<equipment slot="Leg" id="Item.leather_cavalier_boots" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.imperial_girl_nit4" />
+		</upgrade_targets>
+	</NPCCharacter>
+	<NPCCharacter id="imperial_girl_nit4"
+				  default_group="Infantry"
+				  is_female="true"
+				  level="21"
+				  civilianTemplate="NPCCharacter.empire_troop_civilian_template_t2"
+				  name="{=}Imperial Companion Guard"	 
+				  occupation="Soldier"
+				  culture="Culture.empire">
+		<face>
+			<BodyProperties version="4" age="22.65" weight="0.75" build="0.375"  key="0005900D0000200AB8708B856647425773608B3ABDFFF44CE89ABB79366988660056B603F5A3504B000000000000000000000000000000000000000026B42003"  />
+			<BodyPropertiesMax version="4" age="33.01" weight="0.3" build="0.01"  key="0022840FC0FC3010A97B966BAAA6A79686E8889B96BAB8984BBBBF9D88DA774802704724F796C9A80000000000000FFE00000000000000000000000050E04000"  />
+		</face>
+		<skills>
+			<skill id="Athletics" value="100" />
+			<skill id="Riding" value="40" />
+			<skill id="OneHanded" value="120" />
+			<skill id="TwoHanded" value="35" />
+			<skill id="Polearm" value="120" />
+			<skill id="Bow" value="20" />
+			<skill id="Crossbow" value="20" />
+			<skill id="Throwing" value="70" />
+		</skills>
+    <Equipments>
+      <EquipmentRoster>
+			<equipment slot="Item0" id="Item.western_spear_4_t4" />
+			<equipment slot="Item1" id="Item.heavy_horsemans_kite_shield" />
+			<equipment slot="Item2" id="Item.empire_sword_2_t3" />
+			<equipment slot="Item3" id="Item.imperial_throwing_spear_1_t4" />		
+			<equipment slot="Head" id="Item.feathered_spangenhelm_over_imperial_coif" />
+			<equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
+			<equipment slot="Body" id="Item.legionary_mail" />
+			<equipment slot="Gloves" id="Item.lordly_padded_mitten" />
+			<equipment slot="Leg" id="Item.strapped_mail_chausses" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+			<equipment slot="Item0" id="Item.western_spear_4_t4" />
+			<equipment slot="Item1" id="Item.heavy_horsemans_kite_shield" />
+			<equipment slot="Item2" id="Item.empire_sword_2_t3" />
+			<equipment slot="Item3" id="Item.imperial_throwing_spear_1_t4" />		
+			<equipment slot="Head" id="Item.ironlame_feathered_spangenhelm_over_leather" />
+			<equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
+			<equipment slot="Body" id="Item.legionary_mail" />
+			<equipment slot="Gloves" id="Item.lordly_padded_mitten" />
+			<equipment slot="Leg" id="Item.strapped_mail_chausses" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+			<equipment slot="Item0" id="Item.western_spear_4_t4" />
+			<equipment slot="Item1" id="Item.heavy_horsemans_kite_shield" />
+			<equipment slot="Item2" id="Item.empire_sword_2_t3" />
+			<equipment slot="Item3" id="Item.imperial_throwing_spear_1_t4" />	
+			<equipment slot="Head" id="Item.feathered_spangenhelm_over_imperial_coif" />
+			<equipment slot="Cape" id="Item.empire_warrior_padded_armor_shoulder" />
+			<equipment slot="Body" id="Item.legionary_mail" />
+			<equipment slot="Gloves" id="Item.lordly_padded_mitten" />
+			<equipment slot="Leg" id="Item.strapped_mail_chausses" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.imperial_girl_nit5" />
+		</upgrade_targets>
+	</NPCCharacter>		
+	<NPCCharacter id="imperial_girl_nit5"
+				  default_group="Infantry"
+				  is_female="true"
+				  level="26"
+				  civilianTemplate="NPCCharacter.empire_troop_civilian_template_t3"
+				  name="{=}Imperial Domesticii Guard"	 
+				  occupation="Soldier"
+				  culture="Culture.empire">
+		<face>
+			<BodyProperties version="4" age="22.65" weight="0.75" build="0.375"  key="0005900D0000200AB8708B856647425773608B3ABDFFF44CE89ABB79366988660056B603F5A3504B000000000000000000000000000000000000000026B42003"  />
+			<BodyPropertiesMax version="4" age="33.01" weight="0.3" build="0.01"  key="0022840FC0FC3010A97B966BAAA6A79686E8889B96BAB8984BBBBF9D88DA774802704724F796C9A80000000000000FFE00000000000000000000000050E04000"  />
+		</face>
+		<skills>
+			<skill id="Athletics" value="130" />
+			<skill id="Riding" value="60" />
+			<skill id="OneHanded" value="160" />
+			<skill id="TwoHanded" value="40" />
+			<skill id="Polearm" value="160" />
+			<skill id="Bow" value="20" />
+			<skill id="Crossbow" value="20" />
+			<skill id="Throwing" value="100" />
+		</skills>
+    <Equipments>
+      <EquipmentRoster>
+			<equipment slot="Item0" id="Item.empire_polearm_2_t5" />
+			<equipment slot="Item1" id="Item.heavy_horsemans_kite_shield" />
+			<equipment slot="Item2" id="Item.empire_sword_5_t4" />
+			<equipment slot="Item3" id="Item.imperial_throwing_spear_1_t4" />	
+			<equipment slot="Head" id="Item.empire_lord_helmet" />
+			<equipment slot="Cape" id="Item.studded_imperial_neckguard" />
+			<equipment slot="Body" id="Item.imperial_lamellar" />
+			<equipment slot="Gloves" id="Item.decorated_imperial_gauntlets" />
+			<equipment slot="Leg" id="Item.decorated_imperial_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+			<equipment slot="Item0" id="Item.empire_polearm_2_t5" />
+			<equipment slot="Item1" id="Item.heavy_horsemans_kite_shield" />
+			<equipment slot="Item2" id="Item.empire_mace_3_t4" />
+			<equipment slot="Item3" id="Item.imperial_throwing_spear_1_t4" />	
+			<equipment slot="Head" id="Item.empire_lord_helmet" />
+			<equipment slot="Cape" id="Item.studded_imperial_neckguard" />
+			<equipment slot="Body" id="Item.imperial_lamellar" />
+			<equipment slot="Gloves" id="Item.decorated_imperial_gauntlets" />
+			<equipment slot="Leg" id="Item.decorated_imperial_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+			<equipment slot="Item0" id="Item.empire_polearm_2_t5" />
+			<equipment slot="Item1" id="Item.heavy_horsemans_kite_shield" />
+			<equipment slot="Item2" id="Item.empire_sword_5_t4" />
+			<equipment slot="Item3" id="Item.imperial_throwing_spear_1_t4" />	
+			<equipment slot="Head" id="Item.empire_lord_helmet" />
+			<equipment slot="Cape" id="Item.studded_imperial_neckguard" />
+			<equipment slot="Body" id="Item.imperial_lamellar" />
+			<equipment slot="Gloves" id="Item.decorated_imperial_gauntlets" />
+			<equipment slot="Leg" id="Item.decorated_imperial_boots" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+		<upgrade_targets>
+      <upgrade_target id="NPCCharacter.imperial_girl_nit6" />
+		</upgrade_targets>
+	</NPCCharacter>
+	<NPCCharacter id="imperial_girl_nit6"
+				  default_group="Infantry"
+				  is_female="true"
+				  level="31"
+				  civilianTemplate="NPCCharacter.empire_troop_civilian_template_t3"
+				  name="{=}Imperial Echerian Guard"	 
+				  occupation="Soldier"
+				  culture="Culture.empire">
+		<face>
+			<BodyProperties version="4" age="22.65" weight="0.75" build="0.375"  key="0005900D0000200AB8708B856647425773608B3ABDFFF44CE89ABB79366988660056B603F5A3504B000000000000000000000000000000000000000026B42003"  />
+			<BodyPropertiesMax version="4" age="33.01" weight="0.3" build="0.01"  key="0022840FC0FC3010A97B966BAAA6A79686E8889B96BAB8984BBBBF9D88DA774802704724F796C9A80000000000000FFE00000000000000000000000050E04000"  />
+		</face>
+		<skills>
+			<skill id="Athletics" value="160" />
+			<skill id="Riding" value="80" />
+			<skill id="OneHanded" value="220" />
+			<skill id="TwoHanded" value="50" />
+			<skill id="Polearm" value="220" />
+			<skill id="Bow" value="20" />
+			<skill id="Crossbow" value="25" />
+			<skill id="Throwing" value="140" />
+		</skills>
+    <Equipments>
+      <EquipmentRoster>
+			<equipment slot="Item0" id="Item.northern_spear_4_t5" />
+			<equipment slot="Item1" id="Item.empire_sword_5_t4" />
+			<equipment slot="Item2" id="Item.stronger_reinforced_kite_shield" />
+			<equipment slot="Item3" id="Item.imperial_throwing_spear_1_t4" />	
+			<equipment slot="Head" id="Item.AR_empire_archer_helmet_b" />
+			<equipment slot="Cape" id="Item.imperial_lamellar_shoulders" />
+			<equipment slot="Body" id="Item.imperial_scale_armor" />
+			<equipment slot="Gloves" id="Item.lamellar_plate_gauntlets" />
+			<equipment slot="Leg" id="Item.lamellar_plate_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+			<equipment slot="Item0" id="Item.northern_spear_4_t5" />
+			<equipment slot="Item1" id="Item.empire_mace_4_t5" />
+			<equipment slot="Item2" id="Item.stronger_reinforced_kite_shield" />
+			<equipment slot="Item3" id="Item.imperial_throwing_spear_1_t4" />				
+			<equipment slot="Head" id="Item.empire_guarded_lord_helmet" />
+			<equipment slot="Cape" id="Item.imperial_lamellar_shoulders" />
+			<equipment slot="Body" id="Item.imperial_scale_armor" />
+			<equipment slot="Gloves" id="Item.lamellar_plate_gauntlets" />
+			<equipment slot="Leg" id="Item.lamellar_plate_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+			<equipment slot="Item0" id="Item.northern_spear_4_t5" />
+			<equipment slot="Item1" id="Item.empire_sword_5_t4" />
+			<equipment slot="Item2" id="Item.stronger_reinforced_kite_shield" />
+			<equipment slot="Item3" id="Item.imperial_throwing_spear_1_t4" />				
+			<equipment slot="Head" id="Item.empire_guarded_lord_helmet" />
+			<equipment slot="Cape" id="Item.imperial_lamellar_shoulders" />
+			<equipment slot="Body" id="Item.imperial_scale_armor" />
+			<equipment slot="Gloves" id="Item.lamellar_plate_gauntlets" />
+			<equipment slot="Leg" id="Item.lamellar_plate_boots" />
+      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t1" civilian="true" />
+    </Equipments>
+		<upgrade_targets></upgrade_targets>
+	</NPCCharacter>
+
+
+</NPCCharacters>

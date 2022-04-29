@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+
+
+
+
+  <!-- #Vlandia Weaponry -->
+<CraftedItem id="Vlandia_Sword_t1"
+name="Vlandia Crude Blade"
+culture="Culture.vlandia"
+is_merchandise="true"
+crafting_template="OneHandedSword">
+<Pieces>
+<Piece id="battania_blade_3_crude_iron"
+Type="Blade"/>
+<Piece id="battania_guard_8"
+Type="Guard"/>
+<Piece id="sturgian_grip_32"
+Type="Handle"/>
+<Piece id="aserai_pommel_1"
+Type="Pommel"/>
+</Pieces>
+<!-- Length: 96 Weight: 1.74 -->
+</CraftedItem>
+
+
+
+
+
+</Items>

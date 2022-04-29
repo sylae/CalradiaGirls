@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+
+  <!-- #Southern Weaponry -->
+
+<CraftedItem id="South_Spatha_T2"
+name="Southern Spatha"
+culture="Culture.empire"
+is_merchandise="true"
+crafting_template="OneHandedSword">
+<Pieces>
+<Piece id="empire_blade_2"
+Type="Blade"/>
+<Piece id="aserai_guard_6"
+Type="Guard"/>
+<Piece id="aserai_grip_5"
+Type="Handle"/>
+<Piece id="empire_pommel_1"
+Type="Pommel"/>
+</Pieces>
+<!-- Length: 102 Weight: 1.68 -->
+</CraftedItem>
+
+
+<CraftedItem id="South_Spatha_T3"
+name="Southern Star Spatha"
+culture="Culture.empire"
+is_merchandise="true"
+crafting_template="OneHandedSword">
+<Pieces>
+<Piece id="empire_blade_6"
+Type="Blade"
+scale_factor="104"/>
+<Piece id="aserai_guard_9"
+Type="Guard"/>
+<Piece id="aserai_grip_17"
+Type="Handle"
+scale_factor="94"/>
+<Piece id="empire_noble_pommel_2"
+Type="Pommel"/>
+</Pieces>
+<!-- Length: 109 Weight: 1.51 -->
+</CraftedItem>
+
+<CraftedItem id="South_Spatha_T5"
+name="Southern Jewel Spatha"
+culture="Culture.empire"
+is_merchandise="true"
+crafting_template="OneHandedSword">
+<Pieces>
+<Piece id="empire_noble_blade_1"
+Type="Blade"
+scale_factor="109"/>
+<Piece id="aserai_noble_guard_3"
+Type="Guard"/>
+<Piece id="empire_noble_grip_2"
+Type="Handle"/>
+<Piece id="aserai_noble_pommel_2"
+Type="Pommel"/>
+</Pieces>
+<!-- Length: 101 Weight: 1.69 -->
+</CraftedItem>
+
+  <!-- #Western Weaponry -->
+
+<CraftedItem id="Western_Spatha_T5"
+name="Western Steel Spatha"
+culture="Culture.empire"
+is_merchandise="true"
+crafting_template="OneHandedSword">
+<Pieces>
+<Piece id="empire_blade_7"
+Type="Blade"
+scale_factor="110"/>
+<Piece id="vlandian_noble_guard_3"
+Type="Guard"/>
+<Piece id="empire_grip_5"
+Type="Handle"/>
+<Piece id="empire_noble_pommel_4"
+Type="Pommel"/>
+</Pieces>
+<!-- Length: 117 Weight: 1.56 -->
+</CraftedItem>
+
+
+
+
+  <!-- #Unique Weapons -->
+<CraftedItem id="Hero_Sword_1"
+name="Poros Blade"
+crafting_template="OneHandedSword">
+<Pieces>
+<Piece id="battania_noble_blade_2"
+Type="Blade"
+scale_factor="110"/>
+<Piece id="khuzait_noble_guard_4"
+Type="Guard"/>
+<Piece id="vlandian_grip_20"
+Type="Handle"/>
+<Piece id="empire_noble_pommel_2"
+Type="Pommel"/>
+</Pieces>
+<!-- Length: 109 Weight: 1.63 -->
+</CraftedItem>
+
+
+
+
+</Items>

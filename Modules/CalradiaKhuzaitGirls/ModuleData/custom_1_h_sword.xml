@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+
+
+
+  <!-- #Khuzait Weaponry -->
+<CraftedItem id="Khuzait_Saber_T5"
+name="Decorated Blessed Saber"
+crafting_template="OneHandedSword">
+<Pieces>
+<Piece id="khuzait_noble_blade_1"
+Type="Blade"
+scale_factor="102"/>
+<Piece id="khuzait_noble_guard_2"
+Type="Guard"/>
+<Piece id="vlandian_noble_grip_4"
+Type="Handle"/>
+<Piece id="khuzait_noble_pommel_2"
+Type="Pommel"/>
+</Pieces>
+<!-- Length: 94 Weight: 1.72 -->
+</CraftedItem>
+
+
+</Items>

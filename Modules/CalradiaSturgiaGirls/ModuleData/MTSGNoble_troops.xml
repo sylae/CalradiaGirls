@@ -1,0 +1,544 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+	<!-- #region NPCs -->
+	<!-- Culture: Sturgia -->
+    <!-- #region Sturgia Noble Troop Tree -->
+	<NPCCharacter id="sturgia_girl_nt2" 
+				  default_group="Infantry"
+				  is_female="true"
+				  level="11"
+				  name="{=shmjnt2}Sturgian Scion"
+				  occupation="Soldier"
+                  is_basic_troop="true"
+				  culture="Culture.sturgia">
+		<face>
+			<BodyProperties version="4" age="23.31" weight="0.3256" build="0.2299"  key="000A1400018800014874852B57663135D3618A3A8477A647A22CC5853889886801002603F791523B35000000009000000000000000000007000000003EE43003"  />
+			<BodyPropertiesMax version="4" age="26.31" weight="0.3256" build="0.2299"  key="000A1400018800014874852B57663135D3618A3A8477A647A22CC5853889886801002603F791523B35000000009000000000000000000007000000003EE43003"  />
+		</face>
+		<skills>
+			<skill id="Athletics" value="40" />
+			<skill id="Riding" value="10" />
+			<skill id="OneHanded" value="40" />
+			<skill id="TwoHanded" value="40" />
+			<skill id="Polearm" value="40" />
+			<skill id="Bow" value="5" />
+			<skill id="Crossbow" value="0" />
+			<skill id="Throwing" value="20" />
+		</skills>
+    <Equipments>
+      <EquipmentRoster>	
+			<equipment slot="Item0" id="Item.sturgia_sword_1_t2" />
+			<equipment slot="Item1" id="Item.northern_round_sparring_shield" />
+			<equipment slot="Head" id="Item.nasalhelm_over_leather" />
+			<equipment slot="Cape" id="Item.wrapped_scarf" />
+			<equipment slot="Body" id="Item.northern_padded_cloth" />
+			<equipment slot="Gloves" id="Item.buttoned_leather_bracers" />
+			<equipment slot="Leg" id="Item.highland_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+			<equipment slot="Item0" id="Item.sturgia_sword_1_t2" />
+			<equipment slot="Item1" id="Item.northern_round_sparring_shield" />
+			<equipment slot="Head" id="Item.nasalhelm_over_mail" />
+			<equipment slot="Cape" id="Item.battania_civil_cape" />
+			<equipment slot="Body" id="Item.northern_padded_cloth" />
+			<equipment slot="Gloves" id="Item.buttoned_leather_bracers" />
+			<equipment slot="Leg" id="Item.highland_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+			<equipment slot="Item0" id="Item.sturgia_sword_1_t2" />
+			<equipment slot="Item1" id="Item.northern_round_sparring_shield" />
+			<equipment slot="Head" id="Item.nasal_helmet" />
+			<equipment slot="Cape" id="Item.scarf" />
+			<equipment slot="Body" id="Item.northern_padded_cloth" />
+			<equipment slot="Gloves" id="Item.buttoned_leather_bracers" />
+			<equipment slot="Leg" id="Item.highland_boots" />
+      </EquipmentRoster>
+      <EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.sturgia_girl_nit3" />
+			<upgrade_target id="NPCCharacter.sturgia_girl_nct3" />
+		</upgrade_targets>
+	</NPCCharacter>
+	<NPCCharacter id="sturgia_girl_nit3" 
+				  default_group="Infantry"
+				  is_female="true"
+				  level="16"
+				  name="{=shmjnit3}Sturgian Varyag"
+				  occupation="Soldier"
+				  culture="Culture.sturgia">
+		<face>
+			<BodyProperties version="4" age="23.31" weight="0.3256" build="0.2299"  key="000A1400018800014874852B57663135D3618A3A8477A647A22CC5853889886801002603F791523B35000000009000000000000000000007000000003EE43003"  />
+			<BodyPropertiesMax version="4" age="26.31" weight="0.3256" build="0.2299"  key="000A1400018800014874852B57663135D3618A3A8477A647A22CC5853889886801002603F791523B35000000009000000000000000000007000000003EE43003"  />
+		</face>
+		<skills>
+			<skill id="Athletics" value="80" />
+			<skill id="Riding" value="20" />
+			<skill id="OneHanded" value="80" />
+			<skill id="TwoHanded" value="80" />
+			<skill id="Polearm" value="20" />
+			<skill id="Bow" value="5" />
+			<skill id="Crossbow" value="5" />
+			<skill id="Throwing" value="70" />
+		</skills>
+    <Equipments>
+      <EquipmentRoster>	
+			<equipment slot="Item0" id="Item.sturgia_axe_3_t3" />
+			<equipment slot="Item1" id="Item.northern_round_shield" />
+			<equipment slot="Item2" id="Item.northern_throwing_axe_1_t1" />
+			<equipment slot="Head" id="Item.goggled_helmet_over_leather" />
+			<equipment slot="Body" id="Item.northern_leather_tabard" />
+			<equipment slot="Gloves" id="Item.highland_gloves" />
+			<equipment slot="Leg" id="Item.highland_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+			<equipment slot="Item0" id="Item.sturgia_axe_3_t3" />
+			<equipment slot="Item1" id="Item.northern_round_shield" />
+			<equipment slot="Item2" id="Item.northern_throwing_axe_1_t1" />
+			<equipment slot="Head" id="Item.nasalhelm_over_mail" />
+			<equipment slot="Body" id="Item.layered_leather_tunic" />
+			<equipment slot="Gloves" id="Item.highland_gloves" />
+			<equipment slot="Leg" id="Item.highland_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+			<equipment slot="Item0" id="Item.sturgia_axe_3_t3" />
+			<equipment slot="Item1" id="Item.northern_round_shield" />
+			<equipment slot="Item2" id="Item.northern_throwing_axe_1_t1" />
+			<equipment slot="Head" id="Item.sturgian_helmet_open" />
+			<equipment slot="Body" id="Item.northern_leather_tabard" />
+			<equipment slot="Gloves" id="Item.highland_gloves" />
+			<equipment slot="Leg" id="Item.highland_boots" />
+      </EquipmentRoster>
+      <EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.sturgia_girl_nit4" />
+		</upgrade_targets>
+	</NPCCharacter>
+	<NPCCharacter id="sturgia_girl_nit4" 
+				  default_group="Infantry"
+				  is_female="true"
+				  level="21"
+				  name="{=shmjnit4}Sturgian Veteran Varyag"
+				  occupation="Soldier"
+				  culture="Culture.sturgia">
+		<face>
+			<BodyProperties version="4" age="23.31" weight="0.3256" build="0.2299"  key="000A1400018800014874852B57663135D3618A3A8477A647A22CC5853889886801002603F791523B35000000009000000000000000000007000000003EE43003"  />
+			<BodyPropertiesMax version="4" age="26.31" weight="0.3256" build="0.2299"  key="000A1400018800014874852B57663135D3618A3A8477A647A22CC5853889886801002603F791523B35000000009000000000000000000007000000003EE43003"  />
+		</face>
+		<skills>
+			<skill id="Athletics" value="120" />
+			<skill id="Riding" value="30" />
+			<skill id="OneHanded" value="110" />
+			<skill id="TwoHanded" value="130" />
+			<skill id="Polearm" value="20" />
+			<skill id="Bow" value="10" />
+			<skill id="Crossbow" value="5" />
+			<skill id="Throwing" value="100" />
+		</skills>
+    <Equipments>
+      <EquipmentRoster>	
+			<equipment slot="Item0" id="Item.sturgia_axe_3_t3" />
+			<equipment slot="Item1" id="Item.northern_axe_t3" />
+			<equipment slot="Item2" id="Item.northern_throwing_axe_1_t1" />
+			<equipment slot="Item3" id="Item.leather_round_shield" />
+			<equipment slot="Head" id="Item.northern_goggled_helmet" />
+			<equipment slot="Body" id="Item.sturgian_lamellar_gambeson" />
+			<equipment slot="Gloves" id="Item.northern_brass_bracers" />
+			<equipment slot="Leg" id="Item.highland_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+			<equipment slot="Item0" id="Item.sturgia_axe_3_t3" />
+			<equipment slot="Item1" id="Item.northern_axe_t3" />
+			<equipment slot="Item2" id="Item.northern_throwing_axe_1_t1" />
+			<equipment slot="Item3" id="Item.leather_round_shield" />
+			<equipment slot="Head" id="Item.sturgia_heavy_cavalary_helmet" />
+			<equipment slot="Body" id="Item.sturgian_lamellar_gambeson_heavy" />
+			<equipment slot="Gloves" id="Item.northern_brass_bracers" />
+			<equipment slot="Leg" id="Item.highland_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+			<equipment slot="Item0" id="Item.sturgia_axe_3_t3" />
+			<equipment slot="Item1" id="Item.northern_axe_t3" />
+			<equipment slot="Item2" id="Item.northern_throwing_axe_1_t1" />
+			<equipment slot="Item3" id="Item.leather_round_shield" />
+			<equipment slot="Head" id="Item.northern_goggled_helmet" />
+			<equipment slot="Body" id="Item.sturgian_chainmale_shortsleeve" />
+			<equipment slot="Gloves" id="Item.northern_brass_bracers" />
+			<equipment slot="Leg" id="Item.highland_boots" />
+      </EquipmentRoster>
+      <EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.sturgia_girl_nit5" />
+		</upgrade_targets>
+	</NPCCharacter>
+	<NPCCharacter id="sturgia_girl_nit5" 
+				  default_group="Infantry"
+				  is_female="true"
+				  level="26"
+				  name="{=shmjnit5}Sturgian Berserker Aspirant"
+				  occupation="Soldier"
+				  culture="Culture.sturgia">
+		<face>
+			<BodyProperties version="4" age="23.31" weight="0.3256" build="0.2299"  key="000A1400018800014874852B57663135D3618A3A8477A647A22CC5853889886801002603F791523B35000000009000000000000000000007000000003EE43003"  />
+			<BodyPropertiesMax version="4" age="26.31" weight="0.3256" build="0.2299"  key="000A1400018800014874852B57663135D3618A3A8477A647A22CC5853889886801002603F791523B35000000009000000000000000000007000000003EE43003"  />
+		</face>
+		<skills>
+			<skill id="Athletics" value="160" />
+			<skill id="Riding" value="30" />
+			<skill id="OneHanded" value="150" />
+			<skill id="TwoHanded" value="200" />
+			<skill id="Polearm" value="25" />
+			<skill id="Bow" value="15" />
+			<skill id="Crossbow" value="10" />
+			<skill id="Throwing" value="100" />
+		</skills>
+    <Equipments>
+      <EquipmentRoster>	
+			<equipment slot="Item0" id="Item.sturgia_2haxe_1_t4" />
+			<equipment slot="Item1" id="Item.sturgia_old_shield_b" />
+			<equipment slot="Item2" id="Item.northern_throwing_axe_1_t1" />
+			<equipment slot="Head" id="Item.wolfhead" />
+			<equipment slot="Cape" id="Item.armored_bearskin" />
+			<equipment slot="Body" id="Item.armored_baggy_trunks" />
+			<equipment slot="Gloves" id="Item.northern_brass_bracers" />
+			<equipment slot="Leg" id="Item.highland_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+			<equipment slot="Item0" id="Item.sturgia_2haxe_1_t4" />
+			<equipment slot="Item1" id="Item.sturgia_old_shield_b" />
+			<equipment slot="Item2" id="Item.northern_throwing_axe_1_t1" />
+			<equipment slot="Head" id="Item.bearhead" />
+			<equipment slot="Cape" id="Item.rough_bearskin" />
+			<equipment slot="Body" id="Item.battanian_savage_armor" />
+			<equipment slot="Gloves" id="Item.northern_brass_bracers" />
+			<equipment slot="Leg" id="Item.highland_boots" />
+      </EquipmentRoster>
+      <EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.sturgia_girl_nit6" />
+		</upgrade_targets>
+	</NPCCharacter>
+	<NPCCharacter id="sturgia_girl_nit6" 
+				  default_group="Infantry"
+				  is_female="true"
+				  level="31"
+				  name="{=shmjnit6}Sturgian Varyag Berserker"
+				  occupation="Soldier"
+				  culture="Culture.sturgia">
+		<face>
+			<BodyProperties version="4" age="23.31" weight="0.3256" build="0.2299"  key="000A1400018800014874852B57663135D3618A3A8477A647A22CC5853889886801002603F791523B35000000009000000000000000000007000000003EE43003"  />
+			<BodyPropertiesMax version="4" age="26.31" weight="0.3256" build="0.2299"  key="000A1400018800014874852B57663135D3618A3A8477A647A22CC5853889886801002603F791523B35000000009000000000000000000007000000003EE43003"  />
+		</face>
+		<skills>
+			<skill id="Athletics" value="220" />
+			<skill id="Riding" value="40" />
+			<skill id="OneHanded" value="200" />
+			<skill id="TwoHanded" value="260" />
+			<skill id="Polearm" value="25" />
+			<skill id="Bow" value="20" />
+			<skill id="Crossbow" value="20" />
+			<skill id="Throwing" value="130" />
+		</skills>
+    <Equipments>
+      <EquipmentRoster>	
+			<equipment slot="Item0" id="Item.sturgia_2haxe_2_t5" />
+			<equipment slot="Item1" id="Item.sturgia_axe_4_t4" />
+			<equipment slot="Item2" id="Item.northern_throwing_axe_1_t1" />
+			<equipment slot="Head" id="Item.AR_vaegir_helmet_f" />
+			<equipment slot="Cape" id="Item.rough_bearskin" />
+			<equipment slot="Body" id="Item.sturgian_lamellar_base" />
+			<equipment slot="Gloves" id="Item.northern_plated_gloves" />
+			<equipment slot="Leg" id="Item.northern_plated_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+			<equipment slot="Item0" id="Item.sturgia_2haxe_2_t5" />
+			<equipment slot="Item1" id="Item.sturgia_sword_5_t4" />
+			<equipment slot="Item2" id="Item.northern_throwing_axe_1_t1" />
+			<equipment slot="Head" id="Item.sturgian_lord_helmet_a" />
+			<equipment slot="Cape" id="Item.rough_bearskin" />
+			<equipment slot="Body" id="Item.sturgian_lamellar_fortified" />
+			<equipment slot="Gloves" id="Item.northern_brass_bracers" />
+			<equipment slot="Leg" id="Item.plated_strip_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+			<equipment slot="Item0" id="Item.sturgia_2haxe_2_t5" />
+			<equipment slot="Item1" id="Item.sturgia_axe_4_t4" />
+			<equipment slot="Item2" id="Item.northern_throwing_axe_1_t1" />
+			<equipment slot="Head" id="Item.northern_warlord_helmet" />
+			<equipment slot="Cape" id="Item.armored_bearskin" />
+			<equipment slot="Body" id="Item.northern_coat_of_plates" />
+			<equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+			<equipment slot="Leg" id="Item.strapped_mail_chausses" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+			<equipment slot="Item0" id="Item.sturgia_2haxe_2_t5" />
+			<equipment slot="Item1" id="Item.sturgia_axe_4_t4" />
+			<equipment slot="Item2" id="Item.northern_throwing_axe_1_t1" />
+			<equipment slot="Head" id="Item.sturgian_lord_helmet_b" />
+			<equipment slot="Cape" id="Item.rough_bearskin" />
+			<equipment slot="Body" id="Item.sturgian_lamellar_base" />
+			<equipment slot="Gloves" id="Item.northern_plated_gloves" />
+			<equipment slot="Leg" id="Item.northern_plated_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+			<equipment slot="Item0" id="Item.sturgia_2haxe_2_t5" />
+			<equipment slot="Item1" id="Item.sturgia_sword_5_t4" />
+			<equipment slot="Item2" id="Item.northern_throwing_axe_1_t1" />
+			<equipment slot="Head" id="Item.sturgian_lord_helmet_a" />
+			<equipment slot="Cape" id="Item.bearskin" />
+			<equipment slot="Body" id="Item.sturgian_lamellar_fortified" />
+			<equipment slot="Gloves" id="Item.northern_brass_bracers" />
+			<equipment slot="Leg" id="Item.plated_strip_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+			<equipment slot="Item0" id="Item.sturgia_2haxe_2_t5" />
+			<equipment slot="Item1" id="Item.sturgia_axe_4_t4" />
+			<equipment slot="Item2" id="Item.northern_throwing_axe_1_t1" />
+			<equipment slot="Head" id="Item.northern_warlord_helmet" />
+			<equipment slot="Cape" id="Item.bearskin" />
+			<equipment slot="Body" id="Item.northern_coat_of_plates" />
+			<equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
+			<equipment slot="Leg" id="Item.strapped_mail_chausses" />
+      </EquipmentRoster>
+      <EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+		<upgrade_targets></upgrade_targets>
+	</NPCCharacter>
+	<NPCCharacter id="sturgia_girl_nct3" 
+				  default_group="Cavalry"
+				  is_female="true"
+				  level="16"
+				  name="{=shmjnct3}Sturgian Scion Rider"
+                  upgrade_requires="ItemCategory.horse"
+				  occupation="Soldier"
+				  culture="Culture.sturgia">
+		<face>
+			<BodyProperties version="4" age="23.31" weight="0.3256" build="0.2299"  key="000A1400018800014874852B57663135D3618A3A8477A647A22CC5853889886801002603F791523B35000000009000000000000000000007000000003EE43003"  />
+			<BodyPropertiesMax version="4" age="26.31" weight="0.3256" build="0.2299"  key="000A1400018800014874852B57663135D3618A3A8477A647A22CC5853889886801002603F791523B35000000009000000000000000000007000000003EE43003"  />
+		</face>
+		<skills>
+			<skill id="Athletics" value="60" />
+			<skill id="Riding" value="70" />
+			<skill id="OneHanded" value="80" />
+			<skill id="TwoHanded" value="40" />
+			<skill id="Polearm" value="80" />
+			<skill id="Bow" value="5" />
+			<skill id="Crossbow" value="5" />
+			<skill id="Throwing" value="20" />
+		</skills>
+    <Equipments>
+      <EquipmentRoster>	
+			<equipment slot="Item0" id="Item.sturgia_axe_3_t3" />
+			<equipment slot="Item1" id="Item.northern_round_shield" />
+			<equipment slot="Head" id="Item.nasalhelm_over_mail" />
+			<equipment slot="Body" id="Item.sturgian_lamellar_gambeson" />
+			<equipment slot="Gloves" id="Item.highland_gloves" />
+			<equipment slot="Leg" id="Item.highland_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+			<equipment slot="Item0" id="Item.sturgia_axe_3_t3" />
+			<equipment slot="Item1" id="Item.northern_round_shield" />
+			<equipment slot="Head" id="Item.nasalhelm_over_mail" />
+			<equipment slot="Body" id="Item.sturgian_lamellar_gambeson_heavy" />
+			<equipment slot="Gloves" id="Item.highland_gloves" />
+			<equipment slot="Leg" id="Item.highland_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+			<equipment slot="Item0" id="Item.sturgia_axe_3_t3" />
+			<equipment slot="Item1" id="Item.northern_round_shield" />
+			<equipment slot="Head" id="Item.nasalhelm_over_mail" />
+			<equipment slot="Body" id="Item.nordic_lamellar_vest" />
+			<equipment slot="Gloves" id="Item.highland_gloves" />
+			<equipment slot="Leg" id="Item.highland_boots" />
+      </EquipmentRoster>
+		<equipment slot="Horse" id="Item.sturgia_horse" />
+		<equipment slot="HorseHarness" id="Item.light_harness" />
+      <EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.sturgia_girl_nct4" />
+		</upgrade_targets>
+	</NPCCharacter>
+	<NPCCharacter id="sturgia_girl_nct4" 
+				  default_group="Cavalry"
+				  is_female="true"
+				  level="21"
+				  name="{=shmjnct4}Sturgian Junior Druzhinnik"
+				  occupation="Soldier"
+				  culture="Culture.sturgia">
+		<face>
+			<BodyProperties version="4" age="23.31" weight="0.3256" build="0.2299"  key="000A1400018800014874852B57663135D3618A3A8477A647A22CC5853889886801002603F791523B35000000009000000000000000000007000000003EE43003"  />
+			<BodyPropertiesMax version="4" age="26.31" weight="0.3256" build="0.2299"  key="000A1400018800014874852B57663135D3618A3A8477A647A22CC5853889886801002603F791523B35000000009000000000000000000007000000003EE43003"  />
+		</face>
+		<skills>
+			<skill id="Athletics" value="80" />
+			<skill id="Riding" value="100" />
+			<skill id="OneHanded" value="120" />
+			<skill id="TwoHanded" value="50" />
+			<skill id="Polearm" value="130" />
+			<skill id="Bow" value="10" />
+			<skill id="Crossbow" value="10" />
+			<skill id="Throwing" value="25" />
+		</skills>
+    <Equipments>
+      <EquipmentRoster>	
+			<equipment slot="Item0" id="Item.northern_spear_2_t3" />
+			<equipment slot="Item1" id="Item.leather_round_shield" />
+			<equipment slot="Item2" id="Item.sturgia_axe_3_t3" />			
+			<equipment slot="Head" id="Item.sturgia_heavy_cavalary_helmet" />
+			<equipment slot="Cape" id="Item.scarf" />
+			<equipment slot="Body" id="Item.decorated_nordic_hauberk" />
+			<equipment slot="Gloves" id="Item.northern_brass_bracers" />
+			<equipment slot="Leg" id="Item.highland_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+			<equipment slot="Item0" id="Item.northern_spear_2_t3" />
+			<equipment slot="Item1" id="Item.leather_round_shield" />
+			<equipment slot="Item2" id="Item.sturgia_axe_3_t3" />	
+			<equipment slot="Head" id="Item.sturgian_helmet_open" />
+			<equipment slot="Cape" id="Item.wrapped_scarf" />
+			<equipment slot="Body" id="Item.nordic_hauberk" />
+			<equipment slot="Gloves" id="Item.northern_brass_bracers" />
+			<equipment slot="Leg" id="Item.highland_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+			<equipment slot="Item0" id="Item.northern_spear_2_t3" />
+			<equipment slot="Item1" id="Item.leather_round_shield" />
+			<equipment slot="Item2" id="Item.sturgia_axe_3_t3" />	
+			<equipment slot="Head" id="Item.northern_goggled_helmet" />
+			<equipment slot="Cape" id="Item.battania_civil_cape" />
+			<equipment slot="Body" id="Item.sturgian_chainmale_longsleeve" />
+			<equipment slot="Gloves" id="Item.northern_brass_bracers" />
+			<equipment slot="Leg" id="Item.highland_boots" />
+      </EquipmentRoster>
+		<equipment slot="Horse" id="Item.sturgia_horse" />
+		<equipment slot="HorseHarness" id="Item.northern_noble_harness" />
+      <EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.sturgia_girl_nct5" />
+		</upgrade_targets>
+	</NPCCharacter>
+	<NPCCharacter id="sturgia_girl_nct5" 
+				  default_group="Cavalry"
+				  is_female="true"
+				  level="26"
+				  name="{=shmjnct5}Sturgian Senior Druzhinnik"
+				  occupation="Soldier"
+				  culture="Culture.sturgia">
+		<face>
+			<BodyProperties version="4" age="23.31" weight="0.3256" build="0.2299"  key="000A1400018800014874852B57663135D3618A3A8477A647A22CC5853889886801002603F791523B35000000009000000000000000000007000000003EE43003"  />
+			<BodyPropertiesMax version="4" age="26.31" weight="0.3256" build="0.2299"  key="000A1400018800014874852B57663135D3618A3A8477A647A22CC5853889886801002603F791523B35000000009000000000000000000007000000003EE43003"  />
+		</face>
+		<skills>
+			<skill id="Athletics" value="100" />
+			<skill id="Riding" value="140" />
+			<skill id="OneHanded" value="160" />
+			<skill id="TwoHanded" value="50" />
+			<skill id="Polearm" value="170" />
+			<skill id="Bow" value="20" />
+			<skill id="Crossbow" value="20" />
+			<skill id="Throwing" value="30" />
+		</skills>
+    <Equipments>
+      <EquipmentRoster>	
+			<equipment slot="Item0" id="Item.easter_polesword_t4" />
+			<equipment slot="Item1" id="Item.leather_round_shield" />
+			<equipment slot="Item2" id="Item.sturgia_sword_4_t4" />			
+			<equipment slot="Head" id="Item.sturgian_helmet_b_close" />
+			<equipment slot="Cape" id="Item.bearskin" />
+			<equipment slot="Body" id="Item.decorated_nordic_hauberk" />
+			<equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+			<equipment slot="Leg" id="Item.strapped_mail_chausses" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+			<equipment slot="Item0" id="Item.easter_polesword_t4" />
+			<equipment slot="Item1" id="Item.leather_round_shield" />
+			<equipment slot="Item2" id="Item.sturgia_sword_4_t4" />	
+			<equipment slot="Head" id="Item.sturgian_helmet_closed" />
+			<equipment slot="Cape" id="Item.wolf_shoulder" />
+			<equipment slot="Body" id="Item.nordic_hauberk" />
+			<equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+			<equipment slot="Leg" id="Item.strapped_mail_chausses" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+			<equipment slot="Item0" id="Item.easter_polesword_t4" />
+			<equipment slot="Item1" id="Item.leather_round_shield" />
+			<equipment slot="Item2" id="Item.sturgia_sword_4_t4" />	
+			<equipment slot="Head" id="Item.decorated_goggled_helmet" />
+			<equipment slot="Cape" id="Item.bearskin" />
+			<equipment slot="Body" id="Item.sturgian_chainmale_longsleeve" />
+			<equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
+			<equipment slot="Leg" id="Item.strapped_mail_chausses" />
+      </EquipmentRoster>
+		<equipment slot="Horse" id="Item.sturgia_horse" />
+		<equipment slot="HorseHarness" id="Item.northern_light_harness" />
+      <EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.sturgia_girl_nct6" />
+		</upgrade_targets>
+	</NPCCharacter>
+	<NPCCharacter id="sturgia_girl_nct6" 
+				  default_group="Cavalry"
+				  is_female="true"
+				  level="31"
+				  name="{=shmjnct6}Sturgian Bogatyr"
+                  upgrade_requires="ItemCategory.war_horse"
+				  occupation="Soldier"
+				  culture="Culture.sturgia">
+		<face>
+			<BodyProperties version="4" age="23.31" weight="0.3256" build="0.2299"  key="000A1400018800014874852B57663135D3618A3A8477A647A22CC5853889886801002603F791523B35000000009000000000000000000007000000003EE43003"  />
+			<BodyPropertiesMax version="4" age="26.31" weight="0.3256" build="0.2299"  key="000A1400018800014874852B57663135D3618A3A8477A647A22CC5853889886801002603F791523B35000000009000000000000000000007000000003EE43003"  />
+		</face>
+		<skills>
+			<skill id="Athletics" value="130" />
+			<skill id="Riding" value="180" />
+			<skill id="OneHanded" value="220" />
+			<skill id="TwoHanded" value="60" />
+			<skill id="Polearm" value="240" />
+			<skill id="Bow" value="25" />
+			<skill id="Crossbow" value="20" />
+			<skill id="Throwing" value="40" />
+		</skills>
+    <Equipments>
+      <EquipmentRoster>	
+			<equipment slot="Item0" id="Item.sturgia_polearm_1_t5" />
+			<equipment slot="Item1" id="Item.heavy_round_shield" />
+			<equipment slot="Item2" id="Item.sturgia_sword_5_t4" />
+			<equipment slot="Head" id="Item.sturgian_lord_helmet_c" />
+			<equipment slot="Cape" id="Item.brass_lamellar_shoulder_white" />
+			<equipment slot="Body" id="Item.northern_brass_lamellar_over_mail" />
+			<equipment slot="Gloves" id="Item.northern_plated_gloves" />
+			<equipment slot="Leg" id="Item.northern_plated_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+			<equipment slot="Item0" id="Item.sturgia_polearm_1_t5" />
+			<equipment slot="Item1" id="Item.heavy_round_shield" />
+			<equipment slot="Item2" id="Item.sturgia_axe_5_t5" />
+			<equipment slot="Head" id="Item.sturgian_helmet_b_close" />
+			<equipment slot="Cape" id="Item.rough_bearskin" />
+			<equipment slot="Body" id="Item.sturgian_lamellar_fortified" />
+			<equipment slot="Gloves" id="Item.northern_plated_gloves" />
+			<equipment slot="Leg" id="Item.northern_plated_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+			<equipment slot="Item0" id="Item.sturgia_polearm_1_t5" />
+			<equipment slot="Item1" id="Item.heavy_round_shield" />
+			<equipment slot="Item2" id="Item.sturgia_sword_5_t4" />
+			<equipment slot="Head" id="Item.sturgian_lord_helmet_c" />
+			<equipment slot="Cape" id="Item.brass_lamellar_shoulder_white" />
+			<equipment slot="Body" id="Item.sturgian_lamellar_base" />
+			<equipment slot="Gloves" id="Item.northern_plated_gloves" />
+			<equipment slot="Leg" id="Item.northern_plated_boots" />
+     </EquipmentRoster>
+		<equipment slot="Horse" id="Item.sturgia_horse" />
+		<equipment slot="HorseHarness" id="Item.chain_horse_harness" />
+      <EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+		<upgrade_targets></upgrade_targets>
+	</NPCCharacter>
+</NPCCharacters>

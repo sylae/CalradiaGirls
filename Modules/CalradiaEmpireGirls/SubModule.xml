@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module>
+	<Name value="Calradia - Empire Girls - Wyrd Tweaked"/>
+	<Id value="CalradiaEmpireGirls" />
+	<Version value="v1.5.7.1" />
+	<SingleplayerModule value="true" />
+	<MultiplayerModule value="false" />
+    <DependedModules>
+		<DependedModule Id="Native"/>
+		<DependedModule Id="SandBoxCore"/>
+		<DependedModule Id="Sandbox"/>
+		<DependedModule Id="StoryMode" />
+		<DependedModule Id="AdonnaysTroopChanger" />
+		<DependedModule Id="OpenSourceArmory" />
+    </DependedModules>
+	<Official value="false" />
+	<DependedModules/>
+	<SubModules/>
+	<Xmls>
+		<XmlNode>
+			<XmlName id="NPCCharacters" path="EmpireGirls_troops" />
+			<IncludedGameTypes>
+				<GameType value = "Campaign" />
+				<GameType value = "CampaignStoryMode" />
+				<GameType value = "CustomGame" />
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="NPCCharacters" path="EmpireGirlsS_troops" />
+			<IncludedGameTypes>
+				<GameType value = "Campaign" />
+				<GameType value = "CampaignStoryMode" />
+				<GameType value = "CustomGame" />
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="NPCCharacters" path="EmpireGirlsW_troops" />
+			<IncludedGameTypes>
+				<GameType value = "Campaign" />
+				<GameType value = "CampaignStoryMode" />
+				<GameType value = "CustomGame" />
+			</IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
+			<XmlName id="NPCCharacters" path="EmpireGirlsNoble_troops" />
+			<IncludedGameTypes>
+				<GameType value = "Campaign" />
+				<GameType value = "CampaignStoryMode" />
+				<GameType value = "CustomGame" />
+			</IncludedGameTypes>
+		</XmlNode>	
+		<XmlNode>
+			<XmlName id="Items" path="custom_1_h_sword"/>
+			<IncludedGameTypes>
+				<GameType value="Campaign"/>
+				<GameType value="CampaignStoryMode"/>
+			</IncludedGameTypes>
+		</XmlNode>
+	</Xmls>
+</Module>

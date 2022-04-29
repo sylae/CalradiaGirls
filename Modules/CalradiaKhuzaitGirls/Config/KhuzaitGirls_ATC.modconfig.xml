@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<ATCConfig>
+	<MapFaction id="khuzait">
+		<Culture id="default">
+			<basicTroops>
+				<volunteer id="khuzait_girl_t1" percent="50" />
+			</basicTroops>
+			<eliteTroops>
+				<volunteer id="khuzait_girl_nt2" percent="50" />
+			</eliteTroops>
+		</Culture>
+	</MapFaction>
+	<MapFaction id="player_faction">
+		<Culture id="khuzait">
+			<basicTroops>
+				<volunteer id="khuzait_girl_t1" percent="50" />
+			</basicTroops>
+			<eliteTroops>
+				<volunteer id="khuzait_girl_nt2" percent="50" />
+			</eliteTroops>
+		</Culture>
+	</MapFaction>
+	<MapFaction id="player_clan">
+		<Culture id="khuzait">
+			<basicTroops>
+				<volunteer id="khuzait_girl_t1" percent="50" />
+			</basicTroops>
+			<eliteTroops>
+				<volunteer id="khuzait_girl_nt2" percent="50" />
+			</eliteTroops>
+		</Culture>
+	</MapFaction>
+</ATCConfig>
+

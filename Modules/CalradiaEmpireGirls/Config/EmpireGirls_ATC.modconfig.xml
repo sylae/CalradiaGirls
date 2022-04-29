@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<ATCConfig>
+	<MapFaction id="empire">
+		<Culture id="default">
+			<basicTroops>
+				<volunteer id="empire_girl_t1" percent="30" />
+				<volunteer id="imperial_recruit" percent="70" />
+			</basicTroops>
+			<eliteTroops>
+				<volunteer id="imperial_girl_nt2" percent="30" />
+				<volunteer id="imperial_vigla_recruit" percent="70" />
+			</eliteTroops>
+		</Culture>
+		<Culture id="aserai">
+			<basicTroops>
+				<volunteer id="aserai_recruit" percent="70" />
+			</basicTroops>
+			<eliteTroops>
+				<volunteer id="aserai_youth" percent="70" />
+			</eliteTroops>
+		</Culture>
+		<Culture id="battania">
+			<basicTroops>
+				<volunteer id="battanian_volunteer" percent="70" />
+			</basicTroops>
+			<eliteTroops>
+				<volunteer id="battanian_highborn_youth" percent="70" />
+			</eliteTroops>
+		</Culture>
+		<Culture id="khuzait">
+			<basicTroops>
+				<volunteer id="khuzait_nomad" percent="70" />
+			</basicTroops>
+			<eliteTroops>
+				<volunteer id="khuzait_noble_son" percent="70" />
+			</eliteTroops>
+		</Culture>
+		<Culture id="sturgia">
+			<basicTroops>
+				<volunteer id="sturgian_recruit" percent="70" />
+			</basicTroops>
+			<eliteTroops>
+				<volunteer id="sturgian_warrior_son" percent="70" />
+			</eliteTroops>
+		</Culture>
+		<Culture id="vlandia">
+			<basicTroops>
+				<volunteer id="vlandian_recruit" percent="70" />
+			</basicTroops>
+			<eliteTroops>
+				<volunteer id="vlandian_squire" percent="70" />
+			</eliteTroops>
+		</Culture>
+	</MapFaction>
+	<MapFaction id="empire_s">
+		<Culture id="default">
+			<basicTroops>
+				<volunteer id="empire_girl_s_t1" percent="30" />
+				<volunteer id="imperial_recruit" percent="70" />
+			</basicTroops>
+			<eliteTroops>
+				<volunteer id="imperial_girl_nt2" percent="30" />
+				<volunteer id="imperial_vigla_recruit" percent="70" />
+			</eliteTroops>
+		</Culture>
+	</MapFaction>
+	<MapFaction id="empire_w">
+		<Culture id="default">
+			<basicTroops>
+				<volunteer id="empire_girl_w_t1" percent="30" />
+				<volunteer id="imperial_recruit" percent="70" />
+			</basicTroops>
+			<eliteTroops>
+				<volunteer id="imperial_girl_nt2" percent="30" />
+				<volunteer id="imperial_vigla_recruit" percent="70" />
+			</eliteTroops>
+		</Culture>
+	</MapFaction>
+	<MapFaction id="player_clan">
+		<Culture id="empire">
+			<basicTroops>
+				<volunteer id="empire_girl_s_t1" percent="30" />
+				<volunteer id="empire_girl_w_t1" percent="30" />
+				<volunteer id="empire_girl_t1" percent="30" />
+			</basicTroops>
+			<eliteTroops>
+				<volunteer id="imperial_girl_nt2" percent="30" />
+			</eliteTroops>
+		</Culture>
+	</MapFaction>
+	<MapFaction id="player_faction">
+		<Culture id="empire">
+			<basicTroops>
+				<volunteer id="empire_girl_t1" percent="30" />
+				<volunteer id="empire_girl_s_t1" percent="30" />
+				<volunteer id="empire_girl_w_t1" percent="30" />
+			</basicTroops>
+			<eliteTroops>
+				<volunteer id="imperial_girl_nt2" percent="30" />
+			</eliteTroops>
+		</Culture>
+	</MapFaction>
+</ATCConfig>

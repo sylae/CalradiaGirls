@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+	<!-- #region NPCs -->
+	<!-- Culture: Vlandia -->	
+	<!-- #region Vlandia Noble Troop Tree -->
+	<NPCCharacter id="vlandia_girl_nt2"
+				  default_group="Ranged"
+				  is_female="true"
+				  level="11"
+				  name="{=vhmjnt2}Vlandian Noblesse"
+				  occupation="Soldier"
+				  is_basic_troop="true"
+				  culture="Culture.vlandia">
+		<face>
+			<BodyProperties version="4" age="23.18" weight="0.3" build="0"  key="000588014000100EB8708BD6798C5223D3618A3ABDF9344C954EFF873889886501000613F77372230400000000E000000000000000000017000000003EF41003"  />
+			<BodyPropertiesMax version="4" age="29.18" weight="0.2846" build="0.9614"  key="000588014000100EB8708BD6798C5223D3618A3ABDF9344C954EFF873889886501000613F7737223E400000000E000000000000000000017000000003EF41003"  />
+		</face>
+		<skills>
+			<skill id="Athletics" value="40" />
+			<skill id="Riding" value="40" />
+			<skill id="OneHanded" value="40" />
+			<skill id="TwoHanded" value="20" />
+			<skill id="Polearm" value="20" />
+			<skill id="Bow" value="5" />
+			<skill id="Crossbow" value="25" />
+			<skill id="Throwing" value="5" />
+		</skills>
+    <Equipments>
+      <EquipmentRoster>
+			<equipment slot="Item0" id="Item.vlandia_sword_1_t2" />
+			<equipment slot="Item1" id="crossbow_a" />
+			<equipment slot="Item2" id="Item.bolt_a" />
+			<equipment slot="Item3" id="Item.small_heater_shield" />
+			<equipment slot="Body" id="Item.leather_coat_over_cloth" />
+			<equipment slot="Gloves" id="Item.buttoned_leather_bracers" />
+			<equipment slot="Leg" id="Item.fine_town_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+			<equipment slot="Item0" id="Item.vlandia_sword_1_t2" />
+			<equipment slot="Item1" id="crossbow_a" />
+			<equipment slot="Item2" id="Item.bolt_a" />
+			<equipment slot="Item3" id="Item.western_spear_2_t2" />
+			<equipment slot="Cape" id="Item.wrapped_scarf" />			
+			<equipment slot="Body" id="Item.aketon" />
+			<equipment slot="Gloves" id="Item.buttoned_leather_bracers" />
+			<equipment slot="Leg" id="Item.fine_town_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+			<equipment slot="Item0" id="Item.vlandia_sword_1_t2" />
+			<equipment slot="Item1" id="crossbow_a" />
+			<equipment slot="Item2" id="Item.bolt_a" />
+			<equipment slot="Item3" id="Item.small_heater_shield" />
+			<equipment slot="Body" id="Item.padded_leather_shirt" />
+			<equipment slot="Gloves" id="Item.buttoned_leather_bracers" />
+			<equipment slot="Leg" id="Item.fine_town_boots" />
+      </EquipmentRoster>
+      <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.vlandia_girl_nct3" />
+		</upgrade_targets>
+	</NPCCharacter>
+	<NPCCharacter id="vlandia_girl_nct3"
+				  default_group="Cavalry"
+				  is_female="true"
+				  level="16"
+				  name="{=vhmjnct3}Vlandian Noblesse Calvary"
+                  upgrade_requires="ItemCategory.horse"
+				  occupation="Soldier"
+				  culture="Culture.vlandia">
+		<face>
+			<BodyProperties version="4" age="23.18" weight="0.3" build="0"  key="000588014000100EB8708BD6798C5223D3618A3ABDF9344C954EFF873889886501000613F77372230400000000E000000000000000000017000000003EF41003"  />
+			<BodyPropertiesMax version="4" age="29.18" weight="0.2846" build="0.9614"  key="000588014000100EB8708BD6798C5223D3618A3ABDF9344C954EFF873889886501000613F7737223E400000000E000000000000000000017000000003EF41003"  />
+		</face>
+		<skills>
+			<skill id="Athletics" value="50" />
+			<skill id="Riding" value="80" />
+			<skill id="OneHanded" value="80" />
+			<skill id="TwoHanded" value="30" />
+			<skill id="Polearm" value="80" />
+			<skill id="Bow" value="5" />
+			<skill id="Crossbow" value="25" />
+			<skill id="Throwing" value="10" />
+		</skills>
+    <Equipments>
+      <EquipmentRoster>
+			<equipment slot="Item0" id="vlandia_lance_1_t3" />
+			<equipment slot="Item1" id="vlandia_mace_1_t2" />
+			<equipment slot="Item2" id="Item.western_riders_kite_shield" />
+			<equipment slot="Head" id="Item.mail_coif" />
+			<equipment slot="Cape" id="Item.hood" />
+			<equipment slot="Body" id="Item.padded_coat" />
+			<equipment slot="Gloves" id="Item.padded_mitten" />
+			<equipment slot="Leg" id="Item.leather_cavalier_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+			<equipment slot="Item0" id="vlandia_lance_1_t3" />
+			<equipment slot="Item1" id="vlandia_sword_2_t3" />
+			<equipment slot="Item2" id="Item.western_riders_kite_shield" />
+			<equipment slot="Head" id="Item.open_mail_coif" />
+			<equipment slot="Body" id="Item.padded_coat" />
+			<equipment slot="Gloves" id="Item.padded_mitten" />
+			<equipment slot="Leg" id="Item.leather_cavalier_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+			<equipment slot="Item0" id="vlandia_lance_1_t3" />
+			<equipment slot="Item1" id="vlandia_mace_1_t2" />
+			<equipment slot="Item2" id="Item.western_riders_kite_shield" />
+			<equipment slot="Head" id="Item.mail_coif" />
+			<equipment slot="Cape" id="Item.wrapped_scarf" />
+			<equipment slot="Body" id="Item.padded_coat" />
+			<equipment slot="Gloves" id="Item.padded_mitten" />
+			<equipment slot="Leg" id="Item.leather_cavalier_boots" />
+      </EquipmentRoster>
+		<equipment slot="Horse"
+				   id="Item.vlandia_horse" />
+		<equipment slot="HorseHarness"
+				   id="Item.light_harness" />
+      <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.vlandia_girl_nct4" />
+		</upgrade_targets>
+	</NPCCharacter>
+	<NPCCharacter id="vlandia_girl_nct4"
+				  default_group="Cavalry"
+				  is_female="true"
+				  level="21"
+				  name="{=vhmjnct4}Vlandian Noblesse Lancer"
+				  occupation="Soldier"
+				  culture="Culture.vlandia">
+		<face>
+			<BodyProperties version="4" age="23.18" weight="0.3" build="0"  key="000588014000100EB8708BD6798C5223D3618A3ABDF9344C954EFF873889886501000613F77372230400000000E000000000000000000017000000003EF41003"  />
+			<BodyPropertiesMax version="4" age="29.18" weight="0.2846" build="0.9614"  key="000588014000100EB8708BD6798C5223D3618A3ABDF9344C954EFF873889886501000613F7737223E400000000E000000000000000000017000000003EF41003"  />
+		</face>
+		<skills>
+			<skill id="Athletics" value="60" />
+			<skill id="Riding" value="120" />
+			<skill id="OneHanded" value="120" />
+			<skill id="TwoHanded" value="50" />
+			<skill id="Polearm" value="120" />
+			<skill id="Bow" value="10" />
+			<skill id="Crossbow" value="25" />
+			<skill id="Throwing" value="20" />
+		</skills>
+    <Equipments>
+      <EquipmentRoster>
+			<equipment slot="Item0" id="vlandia_lance_2_t4" />
+			<equipment slot="Item1" id="vlandia_mace_2_t4" />
+			<equipment slot="Item2" id="Item.western_kite_shield" />
+			<equipment slot="Head" id="Item.nasal_helmet_with_mail" />
+			<equipment slot="Cape" id="Item.hood" />
+			<equipment slot="Body" id="Item.vlandia_chainmail" />
+			<equipment slot="Gloves" id="Item.mail_mitten" />
+			<equipment slot="Leg" id="Item.leather_cavalier_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+			<equipment slot="Item0" id="vlandia_lance_2_t4" />
+			<equipment slot="Item1" id="vlandia_sword_4_t4" />
+			<equipment slot="Item2" id="Item.western_kite_shield" />
+			<equipment slot="Head" id="Item.nasal_helmet_with_leather" />
+			<equipment slot="Body" id="Item.hauberk" />
+			<equipment slot="Gloves" id="Item.mail_mitten" />
+			<equipment slot="Leg" id="Item.leather_cavalier_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+			<equipment slot="Item0" id="vlandia_lance_2_t4" />
+			<equipment slot="Item1" id="vlandia_mace_2_t4" />
+			<equipment slot="Item2" id="Item.western_kite_shield" />
+			<equipment slot="Head" id="Item.nasal_helmet" />
+			<equipment slot="Cape" id="Item.wrapped_scarf" />
+			<equipment slot="Body" id="Item.mail_shirt" />
+			<equipment slot="Gloves" id="Item.mail_mitten" />
+			<equipment slot="Leg" id="Item.leather_cavalier_boots" />
+      </EquipmentRoster>
+		<equipment slot="Horse"
+				   id="Item.vlandia_horse" />
+		<equipment slot="HorseHarness"
+				   id="Item.halfchain_barding" />
+      <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.vlandia_girl_nct5" />
+		</upgrade_targets>
+	</NPCCharacter>
+	<NPCCharacter id="vlandia_girl_nct5"
+				  default_group="Cavalry"
+				  is_female="true"
+				  level="26"
+				  name="{=vhmjnct5}Vlandian Knightmaiden"
+				  upgrade_requires="ItemCategory.war_horse"
+				  occupation="Soldier"
+				  culture="Culture.vlandia">
+		<face>
+			<BodyProperties version="4" age="23.18" weight="0.3" build="0"  key="000588014000100EB8708BD6798C5223D3618A3ABDF9344C954EFF873889886501000613F77372230400000000E000000000000000000017000000003EF41003"  />
+			<BodyPropertiesMax version="4" age="29.18" weight="0.2846" build="0.9614"  key="000588014000100EB8708BD6798C5223D3618A3ABDF9344C954EFF873889886501000613F7737223E400000000E000000000000000000017000000003EF41003"  />
+		</face>
+		<skills>
+			<skill id="Athletics" value="70" />
+			<skill id="Riding" value="160" />
+			<skill id="OneHanded" value="160" />
+			<skill id="TwoHanded" value="60" />
+			<skill id="Polearm" value="170" />
+			<skill id="Bow" value="20" />
+			<skill id="Crossbow" value="30" />
+			<skill id="Throwing" value="20" />
+		</skills>
+    <Equipments>
+      <EquipmentRoster>
+			<equipment slot="Item0" id="vlandia_lance_2_t4" />
+			<equipment slot="Item1" id="vlandia_sword_4_t4" />
+			<equipment slot="Item2" id="Item.reinforced_kite_shield" />
+			<equipment slot="Head" id="Item.segmented_skullcap_over_mail_coif" />
+			<equipment slot="Cape" id="Item.battanian_chainmail_shoulder_b" />
+			<equipment slot="Body" id="Item.white_coat_over_mail" />
+			<equipment slot="Gloves" id="Item.mail_mitten" />
+			<equipment slot="Leg" id="Item.mail_chausses" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+			<equipment slot="Item0" id="vlandia_lance_2_t4" />
+			<equipment slot="Item1" id="morningstar_mace_t3" />
+			<equipment slot="Item2" id="Item.reinforced_kite_shield" />
+			<equipment slot="Head" id="Item.nasal_helmet_with_mail" />
+			<equipment slot="Cape" id="Item.battanian_chainmail_shoulder_b" />
+			<equipment slot="Body" id="Item.white_coat_over_mail" />
+			<equipment slot="Gloves" id="Item.mail_mitten" />
+			<equipment slot="Leg" id="Item.mail_chausses" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+			<equipment slot="Item0" id="vlandia_lance_2_t4" />
+			<equipment slot="Item1" id="vlandia_sword_4_t4" />
+			<equipment slot="Item2" id="Item.reinforced_kite_shield" />
+			<equipment slot="Head" id="Item.pointed_skullcap_over_mail_coif" />
+			<equipment slot="Cape" id="Item.battanian_chainmail_shoulder_b" />
+			<equipment slot="Body" id="Item.white_coat_over_mail" />
+			<equipment slot="Gloves" id="Item.mail_mitten" />
+			<equipment slot="Leg" id="Item.mail_chausses" />
+      </EquipmentRoster>
+		<equipment slot="Horse"
+				   id="Item.t2_vlandia_horse" />
+		<equipment slot="HorseHarness"
+				   id="Item.halfchain_barding" />
+      <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.vlandia_girl_nct6" />
+		</upgrade_targets>
+	</NPCCharacter>
+	<NPCCharacter id="vlandia_girl_nct6"
+				  default_group="Cavalry"
+				  is_female="true"
+				  level="31"
+				  name="{=vhmjnct6}Vlandian Banner Princess"
+				  occupation="Soldier"
+				  culture="Culture.vlandia">
+		<face>
+			<BodyProperties version="4" age="23.18" weight="0.3" build="0"  key="000588014000100EB8708BD6798C5223D3618A3ABDF9344C954EFF873889886501000613F77372230400000000E000000000000000000017000000003EF41003"  />
+			<BodyPropertiesMax version="4" age="29.18" weight="0.2846" build="0.9614"  key="000588014000100EB8708BD6798C5223D3618A3ABDF9344C954EFF873889886501000613F7737223E400000000E000000000000000000017000000003EF41003"  />
+		</face>
+		<skills>
+			<skill id="Athletics" value="80" />
+			<skill id="Riding" value="200" />
+			<skill id="OneHanded" value="220" />
+			<skill id="TwoHanded" value="70" />
+			<skill id="Polearm" value="260" />
+			<skill id="Bow" value="25" />
+			<skill id="Crossbow" value="40" />
+			<skill id="Throwing" value="20" />
+		</skills>
+    <Equipments>
+      <EquipmentRoster>
+			<equipment slot="Item0" id="Item.vlandia_lance_3_t5" />
+			<equipment slot="Item1" id="Item.stronger_reinforced_kite_shield" />
+			<equipment slot="Item2" id="Item.vlandia_sword_5_t5" />
+			<equipment slot="Head" id="Item.full_helm_over_mail_coif" />
+			<equipment slot="Cape" id="Item.pauldron_cape_a" />
+			<equipment slot="Body" id="Item.coat_of_plates_over_mail" />
+			<equipment slot="Gloves" id="Item.lordly_mail_mitten" />
+			<equipment slot="Leg" id="Item.mail_cavalier_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+			<equipment slot="Item0" id="Item.vlandia_lance_3_t5" />
+			<equipment slot="Item1" id="Item.stronger_reinforced_kite_shield" />
+			<equipment slot="Item2" id="Item.vlandia_mace_3_t5" />
+			<equipment slot="Head" id="Item.full_helm_over_mail_coif" />
+			<equipment slot="Cape" id="Item.pauldron_cape_a" />
+			<equipment slot="Body" id="Item.desert_scale_armor" />
+			<equipment slot="Gloves" id="Item.lordly_mail_mitten" />
+			<equipment slot="Leg" id="Item.mail_cavalier_boots" />
+      </EquipmentRoster>
+      <EquipmentRoster>
+			<equipment slot="Item0" id="Item.vlandia_lance_3_t5" />
+			<equipment slot="Item1" id="Item.stronger_reinforced_kite_shield" />
+			<equipment slot="Item2" id="Item.battle_axe_t4" />
+			<equipment slot="Head" id="Item.western_plated_helmet" />
+			<equipment slot="Cape" id="Item.pauldron_cape_a" />
+			<equipment slot="Body" id="Item.coat_of_plates_over_mail" />
+			<equipment slot="Gloves" id="Item.lordly_mail_mitten" />
+			<equipment slot="Leg" id="Item.mail_cavalier_boots" />
+      </EquipmentRoster>
+		<equipment slot="Horse"
+				   id="Item.t2_vlandia_horse" />
+		<equipment slot="HorseHarness"
+				   id="Item.chain_barding" />
+      <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true" />
+    </Equipments>
+		<upgrade_targets></upgrade_targets>
+	</NPCCharacter>
+
+	
+</NPCCharacters>

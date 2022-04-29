@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<ATCConfig>
+	<MapFaction id="battania">
+		<Culture id="default">
+			<basicTroops>
+				<volunteer id="battanian_girl_it1" percent="50" />
+			</basicTroops>
+			<eliteTroops>
+				<volunteer id="battanian_girl_nt2" percent="50" />
+			</eliteTroops>
+		</Culture>
+	</MapFaction>
+	<MapFaction id="player_faction">
+		<Culture id="battania">
+			<basicTroops>
+				<volunteer id="battanian_girl_it1" percent="50" />
+			</basicTroops>
+			<eliteTroops>
+				<volunteer id="battanian_girl_nt2" percent="50" />
+			</eliteTroops>
+		</Culture>
+	</MapFaction>
+	<MapFaction id="player_clan">
+		<Culture id="battania">
+			<basicTroops>
+				<volunteer id="battanian_girl_it1" percent="50" />
+			</basicTroops>
+			<eliteTroops>
+				<volunteer id="battanian_girl_nt2" percent="50" />
+			</eliteTroops>
+		</Culture>
+	</MapFaction>
+</ATCConfig>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Module>
+	<Name value="Calradia - Aserai Girls - Wyrd Tweaked"/>
+	<Id value="CalradiaAseraiGirls"/>
+	<Version value="v1.5.7.1"/>
+	<SingleplayerModule value="true"/>
+	<MultiplayerModule value="false"/>
+    <DependedModules>
+		<DependedModule Id="Native"/>
+		<DependedModule Id="SandBoxCore"/>
+		<DependedModule Id="Sandbox"/>
+		<DependedModule Id="StoryMode" />
+		<DependedModule Id="AdonnaysTroopChanger" />
+		<DependedModule Id="OpenSourceArmory" />
+    </DependedModules>
+	<Official value="false" />
+	<DependedModules/>
+	<SubModules/>
+	<Xmls>
+		<XmlNode>                
+			<XmlName id="NPCCharacters" path="MTAG_troops"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+			</IncludedGameTypes>
+		</XmlNode>  
+		<XmlNode>                
+			<XmlName id="NPCCharacters" path="MTAGNoble_troops"/>
+			<IncludedGameTypes>
+				<GameType value = "Campaign"/>
+				<GameType value = "CampaignStoryMode"/>
+				<GameType value = "CustomGame"/>
+			</IncludedGameTypes>
+		</XmlNode>  	
+	</Xmls>
+</Module>
