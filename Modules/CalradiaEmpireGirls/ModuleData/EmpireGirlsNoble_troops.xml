@@ -25,6 +25,10 @@
 			<skill id="Crossbow" value="15" />
 			<skill id="Throwing" value="10" />
 		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.imperial_girl_nct3" />
+			<upgrade_target id="NPCCharacter.imperial_girl_nit3" />
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.western_spear_2_t2" />
@@ -56,10 +60,6 @@
       </EquipmentRoster>
       <EquipmentSet id="empire_troop_civilian_template_t1" civilian="true" />
     </Equipments>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.imperial_girl_nct3" />
-			<upgrade_target id="NPCCharacter.imperial_girl_nit3" />
-		</upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="imperial_girl_nct3"
 				  default_group="Cavalry"
@@ -83,6 +83,9 @@
 			<skill id="Crossbow" value="10" />
 			<skill id="Throwing" value="20" />
 		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.imperial_girl_nct4" />
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.western_spear_3_t3" />
@@ -114,15 +117,12 @@
 			<equipment slot="Gloves" id="Item.guarded_padded_vambrace" />
 			<equipment slot="Leg" id="Item.leather_cavalier_boots" />
       </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
 		<equipment slot="Horse"
 				   id="Item.empire_horse" />
 		<equipment slot="HorseHarness"
 				   id="Item.stripped_leather_harness" />
-      <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
     </Equipments>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.imperial_girl_nct4" />
-		</upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="imperial_girl_nct4"
 				  default_group="Cavalry"
@@ -145,6 +145,9 @@
 			<skill id="Crossbow" value="15" />
 			<skill id="Throwing" value="40" />
 		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.imperial_girl_nct5" />
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.western_spear_4_t4" />
@@ -176,21 +179,17 @@
 			<equipment slot="Gloves" id="Item.lordly_padded_mitten" />
 			<equipment slot="Leg" id="Item.strapped_mail_chausses" />
       </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t1" civilian="true" />
 		<equipment slot="Horse"
 				   id="Item.empire_horse" />
 		<equipment slot="HorseHarness"
 				   id="Item.imperial_riding_harness" />
-      <EquipmentSet id="empire_troop_civilian_template_t1" civilian="true" />
     </Equipments>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.imperial_girl_nct5" />
-		</upgrade_targets>
 	</NPCCharacter>		
 	<NPCCharacter id="imperial_girl_nct5"
 				  default_group="Cavalry"
 				  is_female="true"
 				  level="26"
-				  civilianTemplate="NPCCharacter.empire_troop_civilian_template_t3"
 				  name="{=}Imperial Cataphract"	 
 				  occupation="Soldier"
 				  culture="Culture.empire">
@@ -208,6 +207,9 @@
 			<skill id="Crossbow" value="40" />
 			<skill id="Throwing" value="50" />
 		</skills>
+		<upgrade_targets>
+      <upgrade_target id="NPCCharacter.imperial_girl_nct6" />
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.empire_lance_2_t4" />
@@ -239,15 +241,12 @@
 			<equipment slot="Gloves" id="Item.decorated_imperial_gauntlets" />
 			<equipment slot="Leg" id="Item.decorated_imperial_boots" />
       </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t3" civilian="true" />
 		<equipment slot="Horse"
 				   id="Item.t2_empire_horse" />
 		<equipment slot="HorseHarness"
 				   id="Item.imperial_scale_barding" />
-      <EquipmentSet id="empire_troop_civilian_template_t3" civilian="true" />
     </Equipments>
-		<upgrade_targets>
-      <upgrade_target id="NPCCharacter.imperial_girl_nct6" />
-		</upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="imperial_girl_nct6"
 				  default_group="Cavalry"
@@ -270,6 +269,7 @@
 			<skill id="Crossbow" value="50" />
 			<skill id="Throwing" value="60" />
 		</skills>
+		<upgrade_targets></upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.empire_lance_3_t5" />
@@ -301,19 +301,17 @@
 			<equipment slot="Gloves" id="Item.lamellar_plate_gauntlets" />
 			<equipment slot="Leg" id="Item.lamellar_plate_boots" />
      </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t3" civilian="true" />
 		<equipment slot="Horse"
 				   id="Item.t2_empire_horse" />
 		<equipment slot="HorseHarness"
 				   id="Item.imperial_scale_barding" />
-      <EquipmentSet id="empire_troop_civilian_template_t3" civilian="true" />
     </Equipments>
-		<upgrade_targets></upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="imperial_girl_nit3"
 				  default_group="Infantry"
 				  is_female="true"
 				  level="16"
-				  civilianTemplate="NPCCharacter.empire_troop_civilian_template_t2"
 				  name="{=ihmjnit3}Imperial Vigla Infantry"	 
 				  occupation="Soldier"
 				  culture="Culture.empire">
@@ -331,6 +329,9 @@
 			<skill id="Crossbow" value="20" />
 			<skill id="Throwing" value="20" />
 		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.imperial_girl_nit4" />
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.western_spear_3_t3" />
@@ -367,15 +368,11 @@
       </EquipmentRoster>
       <EquipmentSet id="empire_troop_civilian_template_t3" civilian="true" />
     </Equipments>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.imperial_girl_nit4" />
-		</upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="imperial_girl_nit4"
 				  default_group="Infantry"
 				  is_female="true"
 				  level="21"
-				  civilianTemplate="NPCCharacter.empire_troop_civilian_template_t2"
 				  name="{=}Imperial Companion Guard"	 
 				  occupation="Soldier"
 				  culture="Culture.empire">
@@ -393,6 +390,9 @@
 			<skill id="Crossbow" value="20" />
 			<skill id="Throwing" value="70" />
 		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.imperial_girl_nit5" />
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.western_spear_4_t4" />
@@ -429,15 +429,11 @@
       </EquipmentRoster>
       <EquipmentSet id="empire_troop_civilian_template_t3" civilian="true" />
     </Equipments>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.imperial_girl_nit5" />
-		</upgrade_targets>
 	</NPCCharacter>		
 	<NPCCharacter id="imperial_girl_nit5"
 				  default_group="Infantry"
 				  is_female="true"
 				  level="26"
-				  civilianTemplate="NPCCharacter.empire_troop_civilian_template_t3"
 				  name="{=}Imperial Domesticii Guard"	 
 				  occupation="Soldier"
 				  culture="Culture.empire">
@@ -455,6 +451,9 @@
 			<skill id="Crossbow" value="20" />
 			<skill id="Throwing" value="100" />
 		</skills>
+		<upgrade_targets>
+      <upgrade_target id="NPCCharacter.imperial_girl_nit6" />
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.empire_polearm_2_t5" />
@@ -491,15 +490,11 @@
       </EquipmentRoster>
       <EquipmentSet id="empire_troop_civilian_template_t3" civilian="true" />
     </Equipments>
-		<upgrade_targets>
-      <upgrade_target id="NPCCharacter.imperial_girl_nit6" />
-		</upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="imperial_girl_nit6"
 				  default_group="Infantry"
 				  is_female="true"
 				  level="31"
-				  civilianTemplate="NPCCharacter.empire_troop_civilian_template_t3"
 				  name="{=}Imperial Echerian Guard"	 
 				  occupation="Soldier"
 				  culture="Culture.empire">
@@ -517,6 +512,7 @@
 			<skill id="Crossbow" value="25" />
 			<skill id="Throwing" value="140" />
 		</skills>
+		<upgrade_targets></upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.northern_spear_4_t5" />
@@ -553,7 +549,6 @@
       </EquipmentRoster>
       <EquipmentSet id="empire_troop_civilian_template_t1" civilian="true" />
     </Equipments>
-		<upgrade_targets></upgrade_targets>
 	</NPCCharacter>
 
 

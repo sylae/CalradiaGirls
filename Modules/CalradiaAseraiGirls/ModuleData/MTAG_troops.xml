@@ -25,6 +25,10 @@
 			<skill id="Crossbow" value="5" />
 			<skill id="Throwing" value="20" />
 		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.aserai_girl_st2" />
+			<upgrade_target id="NPCCharacter.aserai_girl_it2" />
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.peasant_sickle_1_t1" />
@@ -47,10 +51,6 @@
       </EquipmentRoster>
       <EquipmentSet id="aserai_troop_civilian_template_t1" civilian="true" />
     </Equipments>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.aserai_girl_st2" />
-			<upgrade_target id="NPCCharacter.aserai_girl_it2" />
-		</upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="aserai_girl_st2"
 				  default_group="Infantry"
@@ -73,6 +73,9 @@
 			<skill id="Crossbow" value="5" />
 			<skill id="Throwing" value="40" />
 		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.aserai_girl_st3" />
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.eastern_spear_1_t2" />
@@ -128,9 +131,6 @@
       </EquipmentRoster>
       <EquipmentSet id="aserai_troop_civilian_template_t1" civilian="true" />
     </Equipments>	
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.aserai_girl_st3" />
-		</upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="aserai_girl_st3"
 					  default_group="Infantry"
@@ -153,6 +153,10 @@
 			<skill id="Crossbow" value="5" />
 			<skill id="Throwing" value="70" />
 		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.aserai_girl_rt4" />
+			<upgrade_target id="NPCCharacter.aserai_girl_it4" />
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.aserai_sword_2_t2" />
@@ -200,10 +204,6 @@
       </EquipmentRoster>
       <EquipmentSet id="aserai_troop_civilian_template_t1" civilian="true" />
     </Equipments>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.aserai_girl_rt4" />
-			<upgrade_target id="NPCCharacter.aserai_girl_it4" />
-		</upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="aserai_girl_rt4"
 				  default_group="Ranged"
@@ -226,6 +226,9 @@
 			<skill id="Crossbow" value="20" />
 			<skill id="Throwing" value="75" />
 		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.aserai_girl_rt5" />
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.composite_bow" />
@@ -261,9 +264,6 @@
       </EquipmentRoster>
       <EquipmentSet id="aserai_troop_civilian_template_t1" civilian="true" />
     </Equipments>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.aserai_girl_rt5" />
-		</upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="aserai_girl_rt5"
 				  default_group="Ranged"
@@ -286,6 +286,7 @@
 			<skill id="Crossbow" value="40" />
 			<skill id="Throwing" value="80" />
 		</skills>
+		<upgrade_targets></upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.steppe_war_bow" />
@@ -322,7 +323,6 @@
       </EquipmentRoster>
       <EquipmentSet id="aserai_troop_civilian_template_t1" civilian="true" />
     </Equipments>
-		<upgrade_targets></upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="aserai_girl_it4"
 				  default_group="Infantry"
@@ -345,6 +345,10 @@
 			<skill id="Crossbow" value="10" />
 			<skill id="Throwing" value="100" />
 		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.aserai_girl_it5" />
+			<upgrade_target id="NPCCharacter.aserai_girl_st5" />
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.aserai_sword_3_t3" />
@@ -380,10 +384,6 @@
       </EquipmentRoster>
       <EquipmentSet id="aserai_troop_civilian_template_t1" civilian="true" />
     </Equipments>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.aserai_girl_it5" />
-			<upgrade_target id="NPCCharacter.aserai_girl_st5" />
-		</upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="aserai_girl_it5"
 				  default_group="Infantry"
@@ -406,6 +406,7 @@
 			<skill id="Crossbow" value="20" />
 			<skill id="Throwing" value="130" />
 		</skills>
+		<upgrade_targets></upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.aserai_sword_4_t4" />
@@ -453,7 +454,6 @@
       </EquipmentRoster>
       <EquipmentSet id="aserai_troop_civilian_template_t1" civilian="true" />
     </Equipments>
-		<upgrade_targets></upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="aserai_girl_st5"
 				  default_group="Infantry"
@@ -476,6 +476,7 @@
 			<skill id="Crossbow" value="20" />
 			<skill id="Throwing" value="160" />
 		</skills>
+		<upgrade_targets></upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.aserai_sword_4_t4" />
@@ -512,7 +513,6 @@
       </EquipmentRoster>
       <EquipmentSet id="aserai_troop_civilian_template_t1" civilian="true" />
     </Equipments>
-		<upgrade_targets></upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="aserai_girl_it2"
 				  default_group="Infantry"
@@ -536,6 +536,10 @@
 			<skill id="Crossbow" value="5" />
 			<skill id="Throwing" value="20" />
 		</skills>
+		<upgrade_targets>
+      <upgrade_target id="NPCCharacter.aserai_girl_ct3" />
+      <upgrade_target id="NPCCharacter.aserai_girl_hit3" />
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.eastern_spear_1_t2" />
@@ -566,10 +570,6 @@
       </EquipmentRoster>
       <EquipmentSet id="aserai_troop_civilian_template_t1" civilian="true" />
     </Equipments>
-		<upgrade_targets>
-      <upgrade_target id="NPCCharacter.aserai_girl_ct3" />
-      <upgrade_target id="NPCCharacter.aserai_girl_hit3" />
-		</upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="aserai_girl_ct3"
 				  default_group="Cavalry"
@@ -593,6 +593,10 @@
 			<skill id="Crossbow" value="10" />
 			<skill id="Throwing" value="20" />
 		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.aserai_girl_hat4" />
+			<upgrade_target id="NPCCharacter.aserai_girl_ct4" />
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.aserai_sword_1_t2" />
@@ -624,16 +628,12 @@
 			<equipment slot="Gloves" id="Item.buttoned_leather_bracers" />
 			<equipment slot="Leg" id="Item.woven_leather_boots" />
       </EquipmentRoster>
+      <EquipmentSet id="aserai_troop_civilian_template_t1" civilian="true" />
 		<equipment slot="Horse"
 				   id="Item.aserai_horse" />
 		<equipment slot="HorseHarness"
 				   id="Item.desert_cloth_harness" />
-      <EquipmentSet id="aserai_troop_civilian_template_t1" civilian="true" />
     </Equipments>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.aserai_girl_hat4" />
-			<upgrade_target id="NPCCharacter.aserai_girl_ct4" />
-		</upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="aserai_girl_hat4"
 				  default_group="HorseArcher"
@@ -657,6 +657,9 @@
 			<skill id="Crossbow" value="15" />
 			<skill id="Throwing" value="30" />
 		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.aserai_girl_hat5" />
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.aserai_sword_3_t3" />
@@ -688,15 +691,12 @@
 			<equipment slot="Gloves" id="Item.studded_vambraces" />
 			<equipment slot="Leg" id="Item.woven_leather_boots" />
       </EquipmentRoster>
+      <EquipmentSet id="aserai_troop_civilian_template_t1" civilian="true" />
 		<equipment slot="Horse"
 				   id="Item.t2_aserai_horse" />
 		<equipment slot="HorseHarness"
 				   id="Item.chain_horse_harness" />
-      <EquipmentSet id="aserai_troop_civilian_template_t1" civilian="true" />
     </Equipments>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.aserai_girl_hat5" />
-		</upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="aserai_girl_hat5"
 				  default_group="HorseArcher"
@@ -719,6 +719,7 @@
 			<skill id="Crossbow" value="20" />
 			<skill id="Throwing" value="40" />
 		</skills>
+		<upgrade_targets></upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.aserai_sword_4_t4" />
@@ -742,19 +743,17 @@
 			<equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
 			<equipment slot="Leg" id="Item.steppe_leather_boots" />
       </EquipmentRoster>
+      <EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true" />
 		<equipment slot="Horse"
 				   id="Item.t2_aserai_horse" />
 		<equipment slot="HorseHarness"
 				   id="Item.half_mail_and_plate_barding" />
-      <EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true" />
     </Equipments>
-		<upgrade_targets></upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="aserai_girl_ct4"
 				  default_group="Cavalry"
 				  is_female="true"
 				  level="21"
-				  civilianTemplate="NPCCharacter.aserai_troop_civilian_template_t3"
 				  name="{=ahmjict4}Aserai Mameluke Cavalry"
 				  upgrade_requires="ItemCategory.war_horse"
 				  occupation="Soldier"
@@ -773,6 +772,9 @@
 			<skill id="Crossbow" value="15" />
 			<skill id="Throwing" value="40" />
 		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.aserai_girl_ct5" />
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.eastern_spear_2_t3" />
@@ -804,21 +806,17 @@
 			<equipment slot="Gloves" id="Item.studded_vambraces" />
 			<equipment slot="Leg" id="Item.steppe_leather_boots" />
       </EquipmentRoster>
+      <EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true" />
 		<equipment slot="Horse"
 				   id="Item.t2_aserai_horse" />
 		<equipment slot="HorseHarness"
 				   id="Item.chain_horse_harness" />
-      <EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true" />
     </Equipments>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.aserai_girl_ct5" />
-		</upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="aserai_girl_ct5"
 				  default_group="Cavalry"
 				  is_female="true"
 				  level="26"
-				  civilianTemplate="NPCCharacter.aserai_troop_civilian_template_t3"
 				  name="{=ahmjct5}Aserai Mameluke Heavy Lancer"
 				  occupation="Soldier"
 				  culture="Culture.aserai">
@@ -836,6 +834,7 @@
 			<skill id="Crossbow" value="20" />
 			<skill id="Throwing" value="50" />
 		</skills>
+		<upgrade_targets></upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.aserai_lance_1_t5" />
@@ -857,19 +856,17 @@
 			<equipment slot="Gloves" id="Item.plated_strip_gauntlets" />
 			<equipment slot="Leg" id="Item.plated_strip_boots" />
       </EquipmentRoster>
+      <EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true" />
 		<equipment slot="Horse"
 				   id="Item.t2_aserai_horse" />
 		<equipment slot="HorseHarness"
 				   id="Item.half_mail_and_plate_barding" />
-      <EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true" />
     </Equipments>
-		<upgrade_targets></upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="aserai_girl_hit3"
 				  default_group="Infantry"
 				  is_female="true"
 				  level="16"
-				  civilianTemplate="NPCCharacter.aserai_troop_civilian_template_t2"
 				  name="{=ahmjhit3}Aserai Mameluke Axewoman"
 				  occupation="Soldier"
 				  is_basic_troop="true"
@@ -888,6 +885,9 @@
 			<skill id="Crossbow" value="10" />
 			<skill id="Throwing" value="60" />
 		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.aserai_girl_hit4" />
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.aserai_2haxe_1_t3" />
@@ -918,15 +918,11 @@
       </EquipmentRoster>
       <EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true" />
     </Equipments>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.aserai_girl_hit4" />
-		</upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="aserai_girl_hit4"
 				  default_group="Infantry"
 				  is_female="true"
 				  level="21"
-				  civilianTemplate="NPCCharacter.aserai_troop_civilian_template_t2"
 				  name="{=ahmjhit4}Aserai Mameluke Najlah"
 				  occupation="Soldier"
 				  culture="Culture.aserai">
@@ -944,6 +940,9 @@
 			<skill id="Crossbow" value="15" />
 			<skill id="Throwing" value="100" />
 		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.aserai_girl_hit5" />
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.aserai_2haxe_2_t4" />
@@ -977,15 +976,11 @@
       </EquipmentRoster>
       <EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true" />
     </Equipments>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.aserai_girl_hit5" />
-		</upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="aserai_girl_hit5"
 				  default_group="Infantry"
 				  is_female="true"
 				  level="26"
-				  civilianTemplate="NPCCharacter.aserai_troop_civilian_template_t3"
 				  name="{=ahmjhit5}Aserai Mameluke Elite Najlah"
 				  occupation="Soldier"
 				  culture="Culture.aserai">
@@ -1003,6 +998,7 @@
 			<skill id="Crossbow" value="20" />
 			<skill id="Throwing" value="130" />
 		</skills>
+		<upgrade_targets></upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.aserai_2haxe_3_t5" />
@@ -1036,7 +1032,6 @@
       </EquipmentRoster>
       <EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true" />
     </Equipments>
-		<upgrade_targets></upgrade_targets>
 	</NPCCharacter>
 	
 

@@ -25,6 +25,9 @@
 			<skill id="Crossbow" value="25" />
 			<skill id="Throwing" value="5" />
 		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.vlandia_girl_nct3" />
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.vlandia_sword_1_t2" />
@@ -56,9 +59,6 @@
       </EquipmentRoster>
       <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true" />
     </Equipments>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.vlandia_girl_nct3" />
-		</upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="vlandia_girl_nct3"
 				  default_group="Cavalry"
@@ -82,6 +82,9 @@
 			<skill id="Crossbow" value="25" />
 			<skill id="Throwing" value="10" />
 		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.vlandia_girl_nct4" />
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="vlandia_lance_1_t3" />
@@ -112,15 +115,12 @@
 			<equipment slot="Gloves" id="Item.padded_mitten" />
 			<equipment slot="Leg" id="Item.leather_cavalier_boots" />
       </EquipmentRoster>
+      <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true" />
 		<equipment slot="Horse"
 				   id="Item.vlandia_horse" />
 		<equipment slot="HorseHarness"
 				   id="Item.light_harness" />
-      <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true" />
     </Equipments>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.vlandia_girl_nct4" />
-		</upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="vlandia_girl_nct4"
 				  default_group="Cavalry"
@@ -143,6 +143,9 @@
 			<skill id="Crossbow" value="25" />
 			<skill id="Throwing" value="20" />
 		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.vlandia_girl_nct5" />
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="vlandia_lance_2_t4" />
@@ -173,15 +176,12 @@
 			<equipment slot="Gloves" id="Item.mail_mitten" />
 			<equipment slot="Leg" id="Item.leather_cavalier_boots" />
       </EquipmentRoster>
+      <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true" />
 		<equipment slot="Horse"
 				   id="Item.vlandia_horse" />
 		<equipment slot="HorseHarness"
 				   id="Item.halfchain_barding" />
-      <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true" />
     </Equipments>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.vlandia_girl_nct5" />
-		</upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="vlandia_girl_nct5"
 				  default_group="Cavalry"
@@ -205,6 +205,9 @@
 			<skill id="Crossbow" value="30" />
 			<skill id="Throwing" value="20" />
 		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.vlandia_girl_nct6" />
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="vlandia_lance_2_t4" />
@@ -236,15 +239,12 @@
 			<equipment slot="Gloves" id="Item.mail_mitten" />
 			<equipment slot="Leg" id="Item.mail_chausses" />
       </EquipmentRoster>
+      <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true" />
 		<equipment slot="Horse"
 				   id="Item.t2_vlandia_horse" />
 		<equipment slot="HorseHarness"
 				   id="Item.halfchain_barding" />
-      <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true" />
     </Equipments>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.vlandia_girl_nct6" />
-		</upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="vlandia_girl_nct6"
 				  default_group="Cavalry"
@@ -267,6 +267,7 @@
 			<skill id="Crossbow" value="40" />
 			<skill id="Throwing" value="20" />
 		</skills>
+		<upgrade_targets></upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.vlandia_lance_3_t5" />
@@ -298,13 +299,12 @@
 			<equipment slot="Gloves" id="Item.lordly_mail_mitten" />
 			<equipment slot="Leg" id="Item.mail_cavalier_boots" />
       </EquipmentRoster>
+      <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true" />
 		<equipment slot="Horse"
 				   id="Item.t2_vlandia_horse" />
 		<equipment slot="HorseHarness"
 				   id="Item.chain_barding" />
-      <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true" />
     </Equipments>
-		<upgrade_targets></upgrade_targets>
 	</NPCCharacter>
 
 	

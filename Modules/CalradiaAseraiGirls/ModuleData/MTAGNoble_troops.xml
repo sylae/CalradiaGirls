@@ -25,6 +25,10 @@
 			<skill id="Crossbow" value="5" />
 			<skill id="Throwing" value="40" />
 		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.aserai_girl_nct3" />
+			<upgrade_target id="NPCCharacter.aserai_girl_nit3" />
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.aserai_sword_1_t2" />
@@ -56,10 +60,6 @@
       </EquipmentRoster>
       <EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true" />
     </Equipments>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.aserai_girl_nct3" />
-			<upgrade_target id="NPCCharacter.aserai_girl_nit3" />
-		</upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="aserai_girl_nct3"
 				  default_group="Cavalry"
@@ -83,6 +83,9 @@
 			<skill id="Crossbow" value="10" />
 			<skill id="Throwing" value="70" />
 		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.aserai_girl_nct4" />
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.aserai_sword_3_t3" />
@@ -118,9 +121,6 @@
 	    <equipment slot="Horse" id="Item.aserai_horse" />
 		<equipment slot="HorseHarness" id="Item.aseran_village_harness" />
     </Equipments>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.aserai_girl_nct4" />
-		</upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="aserai_girl_nct4"
 				  default_group="Cavalry"
@@ -143,6 +143,9 @@
 			<skill id="Crossbow" value="15" />
 			<skill id="Throwing" value="100" />
 		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.aserai_girl_nct5" />
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.aserai_sword_3_t3" />
@@ -180,9 +183,6 @@
 	    <equipment slot="Horse" id="Item.aserai_horse" />
 		<equipment slot="HorseHarness" id="Item.aseran_village_harness" />
     </Equipments>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.aserai_girl_nct5" />
-		</upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="aserai_girl_nct5"
 				  default_group="Cavalry"
@@ -206,6 +206,9 @@
 			<skill id="Crossbow" value="20" />
 			<skill id="Throwing" value="135" />
 		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.aserai_girl_nct6" />
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.aserai_sword_5_t4" />
@@ -254,9 +257,6 @@
 	    <equipment slot="Horse" id="Item.t2_aserai_horse" />
 		<equipment slot="HorseHarness" id="Item.half_mail_and_plate_barding" />
     </Equipments>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.aserai_girl_nct6" />
-		</upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="aserai_girl_nct6"
 				  default_group="Cavalry"
@@ -279,6 +279,7 @@
 			<skill id="Crossbow" value="25" />
 			<skill id="Throwing" value="180" />
 		</skills>
+		<upgrade_targets></upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.aserai_sword_4_t4" />
@@ -328,7 +329,6 @@
 	    <equipment slot="Horse" id="Item.t2_aserai_horse" />
 		<equipment slot="HorseHarness" id="Item.half_mail_and_plate_barding" />
     </Equipments>
-		<upgrade_targets></upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="aserai_girl_nit3"
 				  default_group="Infantry"
@@ -351,6 +351,9 @@
 			<skill id="Crossbow" value="10" />
 			<skill id="Throwing" value="80" />
 		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.aserai_girl_nit4" />
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.aserai_sword_3_t3" />
@@ -384,9 +387,6 @@
       </EquipmentRoster>
       <EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true" />
    </Equipments>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.aserai_girl_nit4" />
-		</upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="aserai_girl_nit4"
 				  default_group="Infantry"
@@ -409,6 +409,9 @@
 			<skill id="Crossbow" value="10" />
 			<skill id="Throwing" value="120" />
 		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.aserai_girl_nit5" />
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.aserai_sword_3_t3" />
@@ -445,9 +448,6 @@
       </EquipmentRoster>
       <EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true" />
    </Equipments>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.aserai_girl_nit5" />
-		</upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="aserai_girl_nit5"
 				  default_group="Infantry"
@@ -470,6 +470,9 @@
 			<skill id="Crossbow" value="15" />
 			<skill id="Throwing" value="160" />
 		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.aserai_girl_nit6" />
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.aserai_sword_5_t4" />
@@ -506,9 +509,6 @@
       </EquipmentRoster>
       <EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true" />
    </Equipments>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.aserai_girl_nit6" />
-		</upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="aserai_girl_nit6"
 				  default_group="Infantry"
@@ -531,6 +531,7 @@
 			<skill id="Crossbow" value="20" />
 			<skill id="Throwing" value="200" />
 		</skills>
+		<upgrade_targets></upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.aserai_noble_sword_2_t5" />
@@ -578,7 +579,6 @@
       </EquipmentRoster>
       <EquipmentSet id="aserai_troop_civilian_template_t3" civilian="true" />
    </Equipments>
-		<upgrade_targets></upgrade_targets>
 	</NPCCharacter>
 
 </NPCCharacters>

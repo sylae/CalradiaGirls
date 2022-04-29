@@ -25,6 +25,10 @@
 			<skill id="Crossbow" value="5" />
 			<skill id="Throwing" value="5" />
 		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.khuzait_girl_ct2" />
+			<upgrade_target id="NPCCharacter.khuzait_girl_rt2" />
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.peasant_pitchfork_1_t1" />
@@ -52,10 +56,6 @@
       </EquipmentRoster>
        <EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true" />
     </Equipments>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.khuzait_girl_ct2" />
-			<upgrade_target id="NPCCharacter.khuzait_girl_rt2" />
-		</upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="khuzait_girl_ct2"
 				  default_group="Cavalry"
@@ -79,6 +79,10 @@
 			<skill id="Crossbow" value="5" />
 			<skill id="Throwing" value="40" />
 		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.khuzait_girl_hat3" />
+			<upgrade_target id="NPCCharacter.khuzait_girl_ct3" />
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.khuzait_sword_1_t2" />
@@ -103,16 +107,12 @@
 			<equipment slot="Body" id="Item.steppe_armor" />
 			<equipment slot="Leg" id="Item.eastern_leather_boots" />
       </EquipmentRoster>
+       <EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true" />
 		<equipment slot="Horse"
 				   id="Item.khuzait_horse" />
 		<equipment slot="HorseHarness"
 				   id="Item.steppe_fur_harness" />
-       <EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true" />
     </Equipments>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.khuzait_girl_hat3" />
-			<upgrade_target id="NPCCharacter.khuzait_girl_ct3" />
-		</upgrade_targets>
 	</NPCCharacter>	
 	<NPCCharacter id="khuzait_girl_hat3"
 				  default_group="HorseArcher"
@@ -135,6 +135,9 @@
 			<skill id="Crossbow" value="10" />
 			<skill id="Throwing" value="30" />
 		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.khuzait_girl_hat4" />
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.composite_bow" />
@@ -165,15 +168,12 @@
 			<equipment slot="Body" id="Item.khuzait_sturdy_armor" />
 			<equipment slot="Leg" id="Item.khuzait_curved_boots" />
       </EquipmentRoster>
+       <EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true" />
 		<equipment slot="Horse"
 				   id="Item.khuzait_horse" />
 		<equipment slot="HorseHarness"
 				   id="Item.steppe_harness" />
-       <EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true" />
     </Equipments>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.khuzait_girl_hat4" />
-		</upgrade_targets>
 	</NPCCharacter>	
 	<NPCCharacter id="khuzait_girl_hat4"
 				  default_group="HorseArcher"
@@ -197,6 +197,9 @@
 			<skill id="Crossbow" value="15" />
 			<skill id="Throwing" value="40" />
 		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.khuzait_girl_hat5" />
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.steppe_heavy_bow" />
@@ -230,15 +233,12 @@
 			<equipment slot="Gloves" id="Item.buttoned_leather_bracers" />
 			<equipment slot="Leg" id="Item.eastern_leather_boots" />
       </EquipmentRoster>
+       <EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true" />
 		<equipment slot="Horse"
 				   id="Item.t2_khuzait_horse" />
 		<equipment slot="HorseHarness"
 				   id="Item.steppe_harness" />
-       <EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true" />
     </Equipments>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.khuzait_girl_hat5" />
-		</upgrade_targets>
 	</NPCCharacter>	
 	<NPCCharacter id="khuzait_girl_hat5"
 				  default_group="HorseArcher"
@@ -261,6 +261,7 @@
 			<skill id="Crossbow" value="20" />
 			<skill id="Throwing" value="50" />
 		</skills>
+		<upgrade_targets></upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.composite_steppe_bow" />
@@ -295,13 +296,12 @@
 			<equipment slot="Gloves" id="Item.steppe_leather_vambraces" />
 			<equipment slot="Leg" id="Item.leather_boots" />
       </EquipmentRoster>
+       <EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true" />
 		<equipment slot="Horse"
 				   id="Item.t2_khuzait_horse" />
 		<equipment slot="HorseHarness"
 				   id="Item.steppe_half_barding" />
-       <EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true" />
     </Equipments>
-		<upgrade_targets></upgrade_targets>
 	</NPCCharacter>	
 	<NPCCharacter id="khuzait_girl_ct3"
 				  default_group="Cavalry"
@@ -324,6 +324,10 @@
 			<skill id="Crossbow" value="10" />
 			<skill id="Throwing" value="50" />
 		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.khuzait_girl_ct4" />	
+			<upgrade_target id="NPCCharacter.khuzait_girl_hst4" />		
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.eastern_spear_3_t3" />
@@ -358,22 +362,17 @@
 			<equipment slot="Gloves" id="Item.buttoned_leather_bracers" />
 			<equipment slot="Leg" id="Item.eastern_leather_boots" />
       </EquipmentRoster>
+       <EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true" />
 		<equipment slot="Horse"
 				   id="Item.khuzait_horse" />
 		<equipment slot="HorseHarness"
 				   id="Item.steppe_fur_harness" />
-       <EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true" />
     </Equipments>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.khuzait_girl_ct4" />	
-			<upgrade_target id="NPCCharacter.khuzait_girl_hst4" />		
-		</upgrade_targets>
 	</NPCCharacter>	
 	<NPCCharacter id="khuzait_girl_ct4"
 				  default_group="Cavalry"
 				  is_female="true"
 				  level="21"
-				  civilianTemplate="NPCCharacter.khuzait_troop_civilian_template_t2"
 				  name="{=khmjct4}Khuzait Mori Lancer"
                   upgrade_requires="ItemCategory.war_horse"
 				  occupation="Soldier"
@@ -392,6 +391,9 @@
 			<skill id="Crossbow" value="15" />
 			<skill id="Throwing" value="50" />
 		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.khuzait_girl_ct5" />		
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.khuzait_lance_1_t3" />
@@ -423,21 +425,17 @@
 			<equipment slot="Gloves" id="Item.studded_leather_vambraces" />
 			<equipment slot="Leg" id="Item.eastern_leather_boots" />
       </EquipmentRoster>
+       <EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true" />
 		<equipment slot="Horse"
 				   id="Item.t2_khuzait_horse" />
 		<equipment slot="HorseHarness"
 				   id="Item.steppe_half_barding" />
-       <EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true" />
     </Equipments>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.khuzait_girl_ct5" />		
-		</upgrade_targets>
 	</NPCCharacter>	
 	<NPCCharacter id="khuzait_girl_ct5"
 				  default_group="Cavalry"
 				  is_female="true"
 				  level="26"
-				  civilianTemplate="NPCCharacter.khuzait_troop_civilian_template_t3"
 				  name="{=}Khuzait Mori Heavy Lancer"
 				  occupation="Soldier"
 				  culture="Culture.khuzait">
@@ -455,6 +453,7 @@
 			<skill id="Crossbow" value="20" />
 			<skill id="Throwing" value="60" />
 		</skills>
+		<upgrade_targets></upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.khuzait_lance_2_t4" />
@@ -486,13 +485,12 @@
 			<equipment slot="Gloves" id="Item.eastern_plated_leather_vambraces" />
 			<equipment slot="Leg" id="Item.leather_boots" />
       </EquipmentRoster>
+       <EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true" />
 	    <equipment slot="Horse"
 				   id="Item.t2_khuzait_horse" />
 		<equipment slot="HorseHarness"
 				   id="Item.steppe_half_barding" />
-       <EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true" />
     </Equipments>
-		<upgrade_targets></upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="khuzait_girl_hst4"
 				  default_group="Cavalry"
@@ -515,6 +513,9 @@
 			<skill id="Crossbow" value="15" />
 			<skill id="Throwing" value="100" />
 		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.khuzait_girl_hst5" />		
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.eastern_javelin_2_t3" />
@@ -549,21 +550,17 @@
 			<equipment slot="Gloves" id="Item.studded_leather_vambraces" />
 			<equipment slot="Leg" id="Item.eastern_leather_boots" />
       </EquipmentRoster>
+       <EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true" />
 		<equipment slot="Horse"
 				   id="Item.khuzait_horse" />
 		<equipment slot="HorseHarness"
 				   id="Item.steppe_half_barding" />
-       <EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true" />
     </Equipments>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.khuzait_girl_hst5" />		
-		</upgrade_targets>
 	</NPCCharacter>	
 	<NPCCharacter id="khuzait_girl_hst5"
 				  default_group="Cavalry"
 				  is_female="true"
 				  level="26"
-				  civilianTemplate="NPCCharacter.khuzait_troop_civilian_template_t3"
 				  name="{=}Khuzait Steppe Marauder"
                   upgrade_requires="ItemCategory.war_horse"
 				  occupation="Soldier"
@@ -582,6 +579,7 @@
 			<skill id="Crossbow" value="20" />
 			<skill id="Throwing" value="130" />
 		</skills>
+		<upgrade_targets></upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.khuzait_sword_4_t4" />
@@ -616,19 +614,17 @@
 			<equipment slot="Gloves" id="Item.steppe_leather_vambraces" />
 			<equipment slot="Leg" id="Item.leather_boots" />
       </EquipmentRoster>
+       <EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true" />
 	    <equipment slot="Horse"
 				   id="Item.t2_khuzait_horse" />
 		<equipment slot="HorseHarness"
 				   id="Item.steppe_half_barding" />
-       <EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true" />
     </Equipments>
-		<upgrade_targets></upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="khuzait_girl_rt2"
 				  default_group="Ranged"
 				  is_female="true"
 				  level="11"
-				  civilianTemplate="NPCCharacter.khuzait_troop_civilian_template_t1"
 				  name="{=khmjit2}Khuzait Tribal Archer"
 				  occupation="Soldier"
 				  culture="Culture.khuzait">
@@ -646,6 +642,10 @@
 			<skill id="Crossbow" value="10" />
 			<skill id="Throwing" value="10" />
 		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.khuzait_girl_rt3" />
+			<upgrade_target id="NPCCharacter.khuzait_girl_it3" />
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.khuzait_mace_1_t2" />
@@ -676,16 +676,11 @@
       </EquipmentRoster>	
        <EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true" />
     </Equipments>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.khuzait_girl_rt3" />
-			<upgrade_target id="NPCCharacter.khuzait_girl_it3" />
-		</upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="khuzait_girl_rt3"
 				  default_group="Ranged"
 				  is_female="true"
 				  level="16"
-				  civilianTemplate="NPCCharacter.khuzait_troop_civilian_template_t2"
 				  name="{=}Khuzait Huntress"
 				  occupation="Soldier"
 				  culture="Culture.khuzait">
@@ -703,6 +698,9 @@
 			<skill id="Crossbow" value="20" />
 			<skill id="Throwing" value="20" />
 		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.khuzait_girl_rt4" />
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.composite_bow" />
@@ -734,15 +732,11 @@
       </EquipmentRoster>	
        <EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true" />
     </Equipments>	
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.khuzait_girl_rt4" />
-		</upgrade_targets>
 	</NPCCharacter>	
 	<NPCCharacter id="khuzait_girl_rt4"
 				  default_group="Ranged"
 				  is_female="true"
 				  level="21"
-				  civilianTemplate="NPCCharacter.khuzait_troop_civilian_template_t2"
 				  name="{=}Khuzait Veteran Huntress"
 				  occupation="Soldier"
 				  culture="Culture.khuzait">
@@ -760,6 +754,9 @@
 			<skill id="Crossbow" value="35" />
 			<skill id="Throwing" value="30" />
 		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.khuzait_girl_rt5" />
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.steppe_heavy_bow" />
@@ -796,15 +793,11 @@
       </EquipmentRoster>	
        <EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true" />
     </Equipments>		
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.khuzait_girl_rt5" />
-		</upgrade_targets>
 	</NPCCharacter>	
 	<NPCCharacter id="khuzait_girl_rt5"
 				  default_group="Ranged"
 				  is_female="true"
 				  level="26"
-				  civilianTemplate="NPCCharacter.khuzait_troop_civilian_template_t3"
 				  name="{=khmjrt5}Khuzait Merguen"
 				  occupation="Soldier"
 				  culture="Culture.khuzait">
@@ -822,6 +815,7 @@
 			<skill id="Crossbow" value="40" />
 			<skill id="Throwing" value="40" />
 		</skills>
+		<upgrade_targets></upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.steppe_war_bow" />
@@ -858,13 +852,11 @@
       </EquipmentRoster>	
        <EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true" />
     </Equipments>	
-		<upgrade_targets></upgrade_targets>
 	</NPCCharacter>	
 	<NPCCharacter id="khuzait_girl_it3"
 				  default_group="Infantry"
 				  is_female="true"
 				  level="16"
-				  civilianTemplate="NPCCharacter.khuzait_troop_civilian_template_t2"
 				  name="{=khmjit3}Khuzait Infantry"
 				  occupation="Soldier"
 				  culture="Culture.khuzait">
@@ -882,6 +874,9 @@
 			<skill id="Crossbow" value="10" />
 			<skill id="Throwing" value="20" />
 		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.khuzait_girl_it4" />
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.eastern_spear_3_t3" />
@@ -915,15 +910,11 @@
       </EquipmentRoster>	
        <EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true" />
     </Equipments>	
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.khuzait_girl_it4" />
-		</upgrade_targets>
 	</NPCCharacter>	
 	<NPCCharacter id="khuzait_girl_it4"
 				  default_group="Infantry"
 				  is_female="true"
 				  level="21"
-				  civilianTemplate="NPCCharacter.khuzait_troop_civilian_template_t2"
 				  name="{=}Khuzait Warrior"
 				  occupation="Soldier"
 				  culture="Culture.khuzait">
@@ -941,6 +932,9 @@
 			<skill id="Crossbow" value="15" />
 			<skill id="Throwing" value="50" />
 		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.khuzait_girl_it5" />
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.eastern_throwing_spear_1_t3" />
@@ -974,15 +968,11 @@
       </EquipmentRoster>	
        <EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true" />
     </Equipments>	
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.khuzait_girl_it5" />
-		</upgrade_targets>
 	</NPCCharacter>	
 	<NPCCharacter id="khuzait_girl_it5"
 				  default_group="Infantry"
 				  is_female="true"
 				  level="26"
-				  civilianTemplate="NPCCharacter.khuzait_troop_civilian_template_t3"
 				  name="{=khmjit5}Khuzait Daichin"
 				  occupation="Soldier"
 				  is_basic_troop="true"
@@ -1001,6 +991,7 @@
 			<skill id="Crossbow" value="20" />
 			<skill id="Throwing" value="80" />
 		</skills>
+		<upgrade_targets></upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.eastern_throwing_spear_2_t4" />
@@ -1034,7 +1025,6 @@
       </EquipmentRoster>	
        <EquipmentSet id="khuzait_troop_civilian_template_t1" civilian="true" />
     </Equipments>	
-		<upgrade_targets></upgrade_targets>
 	</NPCCharacter>
 
 

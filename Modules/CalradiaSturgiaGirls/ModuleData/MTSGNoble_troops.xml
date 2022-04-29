@@ -25,6 +25,10 @@
 			<skill id="Crossbow" value="0" />
 			<skill id="Throwing" value="20" />
 		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.sturgia_girl_nit3" />
+			<upgrade_target id="NPCCharacter.sturgia_girl_nct3" />
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>	
 			<equipment slot="Item0" id="Item.sturgia_sword_1_t2" />
@@ -55,10 +59,6 @@
       </EquipmentRoster>
       <EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true" />
     </Equipments>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.sturgia_girl_nit3" />
-			<upgrade_target id="NPCCharacter.sturgia_girl_nct3" />
-		</upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="sturgia_girl_nit3" 
 				  default_group="Infantry"
@@ -81,6 +81,9 @@
 			<skill id="Crossbow" value="5" />
 			<skill id="Throwing" value="70" />
 		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.sturgia_girl_nit4" />
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>	
 			<equipment slot="Item0" id="Item.sturgia_axe_3_t3" />
@@ -111,9 +114,6 @@
       </EquipmentRoster>
       <EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true" />
     </Equipments>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.sturgia_girl_nit4" />
-		</upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="sturgia_girl_nit4" 
 				  default_group="Infantry"
@@ -136,6 +136,9 @@
 			<skill id="Crossbow" value="5" />
 			<skill id="Throwing" value="100" />
 		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.sturgia_girl_nit5" />
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>	
 			<equipment slot="Item0" id="Item.sturgia_axe_3_t3" />
@@ -169,9 +172,6 @@
       </EquipmentRoster>
       <EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true" />
     </Equipments>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.sturgia_girl_nit5" />
-		</upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="sturgia_girl_nit5" 
 				  default_group="Infantry"
@@ -194,6 +194,9 @@
 			<skill id="Crossbow" value="10" />
 			<skill id="Throwing" value="100" />
 		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.sturgia_girl_nit6" />
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>	
 			<equipment slot="Item0" id="Item.sturgia_2haxe_1_t4" />
@@ -217,9 +220,6 @@
       </EquipmentRoster>
       <EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true" />
     </Equipments>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.sturgia_girl_nit6" />
-		</upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="sturgia_girl_nit6" 
 				  default_group="Infantry"
@@ -242,6 +242,7 @@
 			<skill id="Crossbow" value="20" />
 			<skill id="Throwing" value="130" />
 		</skills>
+		<upgrade_targets></upgrade_targets>
     <Equipments>
       <EquipmentRoster>	
 			<equipment slot="Item0" id="Item.sturgia_2haxe_2_t5" />
@@ -305,7 +306,6 @@
       </EquipmentRoster>
       <EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true" />
     </Equipments>
-		<upgrade_targets></upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="sturgia_girl_nct3" 
 				  default_group="Cavalry"
@@ -329,6 +329,9 @@
 			<skill id="Crossbow" value="5" />
 			<skill id="Throwing" value="20" />
 		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.sturgia_girl_nct4" />
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>	
 			<equipment slot="Item0" id="Item.sturgia_axe_3_t3" />
@@ -354,13 +357,10 @@
 			<equipment slot="Gloves" id="Item.highland_gloves" />
 			<equipment slot="Leg" id="Item.highland_boots" />
       </EquipmentRoster>
+      <EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true" />
 		<equipment slot="Horse" id="Item.sturgia_horse" />
 		<equipment slot="HorseHarness" id="Item.light_harness" />
-      <EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true" />
     </Equipments>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.sturgia_girl_nct4" />
-		</upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="sturgia_girl_nct4" 
 				  default_group="Cavalry"
@@ -383,6 +383,9 @@
 			<skill id="Crossbow" value="10" />
 			<skill id="Throwing" value="25" />
 		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.sturgia_girl_nct5" />
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>	
 			<equipment slot="Item0" id="Item.northern_spear_2_t3" />
@@ -414,13 +417,10 @@
 			<equipment slot="Gloves" id="Item.northern_brass_bracers" />
 			<equipment slot="Leg" id="Item.highland_boots" />
       </EquipmentRoster>
+      <EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true" />
 		<equipment slot="Horse" id="Item.sturgia_horse" />
 		<equipment slot="HorseHarness" id="Item.northern_noble_harness" />
-      <EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true" />
     </Equipments>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.sturgia_girl_nct5" />
-		</upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="sturgia_girl_nct5" 
 				  default_group="Cavalry"
@@ -443,6 +443,9 @@
 			<skill id="Crossbow" value="20" />
 			<skill id="Throwing" value="30" />
 		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.sturgia_girl_nct6" />
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>	
 			<equipment slot="Item0" id="Item.easter_polesword_t4" />
@@ -474,13 +477,10 @@
 			<equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
 			<equipment slot="Leg" id="Item.strapped_mail_chausses" />
       </EquipmentRoster>
+      <EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true" />
 		<equipment slot="Horse" id="Item.sturgia_horse" />
 		<equipment slot="HorseHarness" id="Item.northern_light_harness" />
-      <EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true" />
     </Equipments>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.sturgia_girl_nct6" />
-		</upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="sturgia_girl_nct6" 
 				  default_group="Cavalry"
@@ -504,6 +504,7 @@
 			<skill id="Crossbow" value="20" />
 			<skill id="Throwing" value="40" />
 		</skills>
+		<upgrade_targets></upgrade_targets>
     <Equipments>
       <EquipmentRoster>	
 			<equipment slot="Item0" id="Item.sturgia_polearm_1_t5" />
@@ -535,10 +536,9 @@
 			<equipment slot="Gloves" id="Item.northern_plated_gloves" />
 			<equipment slot="Leg" id="Item.northern_plated_boots" />
      </EquipmentRoster>
+      <EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true" />
 		<equipment slot="Horse" id="Item.sturgia_horse" />
 		<equipment slot="HorseHarness" id="Item.chain_horse_harness" />
-      <EquipmentSet id="sturgia_troop_civilian_template_t3" civilian="true" />
     </Equipments>
-		<upgrade_targets></upgrade_targets>
 	</NPCCharacter>
 </NPCCharacters>

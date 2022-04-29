@@ -25,6 +25,10 @@
 			<skill id="Crossbow" value="10" />
 			<skill id="Throwing" value="5" />
 		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.vlandia_girl_rt2" />
+			<upgrade_target id="NPCCharacter.vlandia_girl_it2" />
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.Vlandia_Sword_t1" />
@@ -54,10 +58,6 @@
       <EquipmentSet id="vlandia_troop_civilian_template_t1" civilian="true" />
     </Equipments>
 
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.vlandia_girl_rt2" />
-			<upgrade_target id="NPCCharacter.vlandia_girl_it2" />
-		</upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="vlandia_girl_rt2"
 				  default_group="Ranged"
@@ -80,6 +80,9 @@
 			<skill id="Crossbow" value="60" />
 			<skill id="Throwing" value="5" />
 		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.vlandia_girl_rt3" />
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="crossbow_a" />
@@ -107,9 +110,6 @@
       </EquipmentRoster>
       <EquipmentSet id="vlandia_troop_civilian_template_t1" civilian="true" />
     </Equipments>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.vlandia_girl_rt3" />
-		</upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="vlandia_girl_rt3"
 				  default_group="Ranged"
@@ -132,6 +132,10 @@
 			<skill id="Crossbow" value="90" />
 			<skill id="Throwing" value="10" />
 		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.vlandia_girl_rt4" />
+			<upgrade_target id="NPCCharacter.vlandia_girl_hat4" />
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="crossbow_b" />
@@ -165,10 +169,6 @@
       </EquipmentRoster>
       <EquipmentSet id="vlandia_troop_civilian_template_t1" civilian="true" />
     </Equipments>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.vlandia_girl_rt4" />
-			<upgrade_target id="NPCCharacter.vlandia_girl_hat4" />
-		</upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="vlandia_girl_rt4"
 				  default_group="Ranged"
@@ -191,6 +191,9 @@
 			<skill id="Crossbow" value="120" />
 			<skill id="Throwing" value="15" />
 		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.vlandia_girl_rt5" />
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="crossbow_d" />
@@ -233,9 +236,6 @@
       </EquipmentRoster>
       <EquipmentSet id="vlandia_troop_civilian_template_t1" civilian="true" />
     </Equipments>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.vlandia_girl_rt5" />
-		</upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="vlandia_girl_rt5"
 				  default_group="Ranged"
@@ -258,6 +258,7 @@
 			<skill id="Crossbow" value="160" />
 			<skill id="Throwing" value="20" />
 		</skills>
+		<upgrade_targets></upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="crossbow_f" />
@@ -294,7 +295,6 @@
       </EquipmentRoster>
       <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true" />
     </Equipments>
-		<upgrade_targets></upgrade_targets>
 	</NPCCharacter>	
 	<NPCCharacter id="vlandia_girl_hat4"
 				  default_group="HorseArcher"
@@ -318,6 +318,9 @@
 			<skill id="Crossbow" value="100" />
 			<skill id="Throwing" value="10" />
 		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.vlandia_girl_hat5" />
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="composite_steppe_bow" />
@@ -358,15 +361,12 @@
 			<equipment slot="Gloves" id="Item.padded_vambrace" />
 			<equipment slot="Leg" id="Item.leather_cavalier_boots" />
       </EquipmentRoster>
+      <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true" />
 		<equipment slot="Horse"
 				   id="Item.vlandia_horse" />
 		<equipment slot="HorseHarness"
 				   id="Item.light_harness" />
-      <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true" />
     </Equipments>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.vlandia_girl_hat5" />
-		</upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="vlandia_girl_hat5"
 				  default_group="HorseArcher"
@@ -389,6 +389,7 @@
 			<skill id="Crossbow" value="110" />
 			<skill id="Throwing" value="20" />
 		</skills>
+		<upgrade_targets></upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="composite_steppe_bow" />
@@ -423,13 +424,12 @@
 			<equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
 			<equipment slot="Leg" id="Item.strapped_mail_chausses" />
       </EquipmentRoster>
+      <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true" />
 		<equipment slot="Horse"
 				   id="Item.vlandia_horse" />
 		<equipment slot="HorseHarness"
 				   id="Item.light_harness" />
-      <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true" />
     </Equipments>
-		<upgrade_targets></upgrade_targets>
 	</NPCCharacter>		
 	<NPCCharacter id="vlandia_girl_it2"
 				  default_group="Infantry"
@@ -452,6 +452,10 @@
 			<skill id="Crossbow" value="20" />
 			<skill id="Throwing" value="5" />
 		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.vlandia_girl_it3" />
+			<upgrade_target id="NPCCharacter.vlandia_girl_ct3" />
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="western_spear_2_t2" />
@@ -482,10 +486,6 @@
       </EquipmentRoster>
       <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true" />
     </Equipments>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.vlandia_girl_it3" />
-			<upgrade_target id="NPCCharacter.vlandia_girl_ct3" />
-		</upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="vlandia_girl_it3"
 				  default_group="Infantry"
@@ -508,6 +508,10 @@
 			<skill id="Crossbow" value="40" />
 			<skill id="Throwing" value="10" />
 		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.vlandia_girl_it4" />
+			<upgrade_target id="NPCCharacter.vlandia_girl_hit4" />
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="western_spear_3_t3" />
@@ -569,10 +573,6 @@
       </EquipmentRoster>
       <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true" />
     </Equipments>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.vlandia_girl_it4" />
-			<upgrade_target id="NPCCharacter.vlandia_girl_hit4" />
-		</upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="vlandia_girl_it4"
 				  default_group="Infantry"
@@ -595,6 +595,10 @@
 			<skill id="Crossbow" value="60" />
 			<skill id="Throwing" value="15" />
 		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.vlandia_girl_it5" />
+			<upgrade_target id="NPCCharacter.vlandia_girl_pit5" />
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="western_spear_3_t3" />
@@ -638,10 +642,6 @@
       </EquipmentRoster>
       <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true" />
     </Equipments>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.vlandia_girl_it5" />
-			<upgrade_target id="NPCCharacter.vlandia_girl_pit5" />
-		</upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="vlandia_girl_it5"
 				  default_group="Infantry"
@@ -664,6 +664,7 @@
 			<skill id="Crossbow" value="80" />
 			<skill id="Throwing" value="20" />
 		</skills>
+		<upgrade_targets></upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="western_spear_4_t4" />
@@ -697,7 +698,6 @@
       </EquipmentRoster>
       <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true" />
     </Equipments>
-		<upgrade_targets></upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="vlandia_girl_pit5"
 				  default_group="Infantry"
@@ -720,6 +720,7 @@
 			<skill id="Crossbow" value="80" />
 			<skill id="Throwing" value="20" />
 		</skills>
+		<upgrade_targets></upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="fine_pike_t4" />
@@ -750,7 +751,6 @@
       </EquipmentRoster>
       <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true" />
     </Equipments>
-		<upgrade_targets></upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="vlandia_girl_hit4"
 				  default_group="Infantry"
@@ -773,6 +773,9 @@
 			<skill id="Crossbow" value="60" />
 			<skill id="Throwing" value="15" />
 		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.vlandia_girl_hit5" />
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="vlandia_sword_3_t4" />
@@ -803,9 +806,6 @@
       </EquipmentRoster>
       <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true" />
     </Equipments>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.vlandia_girl_hit5" />
-		</upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="vlandia_girl_hit5"
 				  default_group="Infantry"
@@ -828,6 +828,7 @@
 			<skill id="Crossbow" value="80" />
 			<skill id="Throwing" value="20" />
 		</skills>
+		<upgrade_targets></upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.vlandia_mace_2_t4" />
@@ -905,7 +906,6 @@
       </EquipmentRoster>
       <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true" />
     </Equipments>
-		<upgrade_targets></upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="vlandia_girl_ct3"
 				  default_group="Cavalry"
@@ -929,6 +929,9 @@
 			<skill id="Crossbow" value="30" />
 			<skill id="Throwing" value="10" />
 		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.vlandia_girl_ct4" />
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="western_spear_3_t3" />
@@ -960,15 +963,12 @@
 			<equipment slot="Gloves" id="Item.leather_gloves" />
 			<equipment slot="Leg" id="Item.leather_cavalier_boots" />
       </EquipmentRoster>
+     <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true" />
 		<equipment slot="Horse"
 				   id="Item.vlandia_horse" />
 		<equipment slot="HorseHarness"
 				   id="Item.light_harness" />
-     <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true" />
     </Equipments>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.vlandia_girl_ct4" />
-		</upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="vlandia_girl_ct4"
 				  default_group="Cavalry"
@@ -991,6 +991,9 @@
 			<skill id="Crossbow" value="40" />
 			<skill id="Throwing" value="20" />
 		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.vlandia_girl_ct5" />
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="western_spear_4_t4" />
@@ -1022,15 +1025,12 @@
 			<equipment slot="Gloves" id="Item.padded_mitten" />
 			<equipment slot="Leg" id="Item.leather_cavalier_boots" />
       </EquipmentRoster>
+     <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true" />
 		<equipment slot="Horse"
 				   id="Item.vlandia_horse" />
 		<equipment slot="HorseHarness"
 				   id="Item.light_harness" />
-     <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true" />
     </Equipments>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.vlandia_girl_ct5" />
-		</upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="vlandia_girl_ct5"
 				  default_group="Cavalry"
@@ -1054,6 +1054,7 @@
 			<skill id="Crossbow" value="40" />
 			<skill id="Throwing" value="20" />
 		</skills>
+		<upgrade_targets></upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="vlandia_lance_2_t4" />
@@ -1085,13 +1086,12 @@
 			<equipment slot="Gloves" id="Item.mail_mitten" />
 			<equipment slot="Leg" id="Item.mail_cavalier_boots" />
       </EquipmentRoster>
+     <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true" />
 		<equipment slot="Horse"
 				   id="Item.t2_vlandia_horse" />
 		<equipment slot="HorseHarness"
 				   id="Item.halfchain_barding" />
-     <EquipmentSet id="vlandia_troop_civilian_template_t3" civilian="true" />
     </Equipments>
-		<upgrade_targets></upgrade_targets>
 	</NPCCharacter>
 
 

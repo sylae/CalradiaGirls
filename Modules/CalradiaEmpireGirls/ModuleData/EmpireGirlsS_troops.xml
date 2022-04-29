@@ -25,6 +25,10 @@
 			<skill id="Crossbow" value="5" />
 			<skill id="Throwing" value="15" />
 		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.empire_girl_s_t2" />	
+			<upgrade_target id="NPCCharacter.empire_girl_s_at2" />			
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.South_Spatha_T2" />
@@ -63,10 +67,6 @@
       </EquipmentRoster>
       <EquipmentSet id="empire_troop_civilian_template_t1" civilian="true" />
     </Equipments>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.empire_girl_s_t2" />	
-			<upgrade_target id="NPCCharacter.empire_girl_s_at2" />			
-		</upgrade_targets>
 	</NPCCharacter>
 
 	<NPCCharacter id="empire_girl_s_t2"
@@ -90,6 +90,9 @@
 			<skill id="Crossbow" value="10" />
 			<skill id="Throwing" value="30" />
 		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.empire_girl_s_t3" />					
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.western_spear_2_t2" />
@@ -126,9 +129,6 @@
       </EquipmentRoster>
       <EquipmentSet id="empire_troop_civilian_template_t1" civilian="true" />
     </Equipments>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.empire_girl_s_t3" />					
-		</upgrade_targets>
 	</NPCCharacter>
 
 	<NPCCharacter id="empire_girl_s_t3"
@@ -152,6 +152,10 @@
 			<skill id="Crossbow" value="20" />
 			<skill id="Throwing" value="70" />
 		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.empire_girl_s_t4" />
+			<upgrade_target id="NPCCharacter.empire_girl_s_ct4" />
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.South_Spatha_T3" />
@@ -188,17 +192,12 @@
       </EquipmentRoster>
       <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
     </Equipments>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.empire_girl_s_t4" />
-			<upgrade_target id="NPCCharacter.empire_girl_s_ct4" />
-		</upgrade_targets>
 	</NPCCharacter>	
 
 	<NPCCharacter id="empire_girl_s_t4"
 				  default_group="Infantry"
 				  is_female="true"
 				  level="21"
-				  civilianTemplate="NPCCharacter.empire_troop_civilian_template_t2"
 				  name="{=}Imperial Southern Veteran Bellatrix"
 				  occupation="Soldier"
 				  culture="Culture.empire">
@@ -216,6 +215,9 @@
 			<skill id="Crossbow" value="45" />
 			<skill id="Throwing" value="100" />
 		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.empire_girl_s_t5" />
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.South_Spatha_T5" />
@@ -252,9 +254,6 @@
       </EquipmentRoster>
       <EquipmentSet id="empire_troop_civilian_template_t3" civilian="true" />
     </Equipments>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.empire_girl_s_t5" />
-		</upgrade_targets>
 	</NPCCharacter>
 
 	<NPCCharacter id="empire_girl_s_t5"
@@ -278,6 +277,7 @@
 			<skill id="Crossbow" value="60" />
 			<skill id="Throwing" value="120" />
 		</skills>
+		<upgrade_targets></upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.South_Spatha_T5" />
@@ -314,14 +314,12 @@
       </EquipmentRoster>
       <EquipmentSet id="empire_troop_civilian_template_t3" civilian="true" />
     </Equipments>
-		<upgrade_targets></upgrade_targets>
 	</NPCCharacter>
 
 	<NPCCharacter id="empire_girl_s_ct4"
 				  default_group="Cavalry"
 				  is_female="true"
 				  level="21"
-				  civilianTemplate="NPCCharacter.empire_troop_civilian_template_t2"
 				  name="{=}Imperial Southern Equite"
                   upgrade_requires="ItemCategory.horse"
 				  occupation="Soldier"
@@ -340,6 +338,9 @@
 			<skill id="Crossbow" value="25" />
 			<skill id="Throwing" value="70" />
 		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.empire_girl_s_ct5" />
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.western_spear_3_t3" />
@@ -374,22 +375,18 @@
 			<equipment slot="Gloves" id="Item.reinforced_leather_vambraces" />
 			<equipment slot="Leg" id="Item.leather_cavalier_boots" />
       </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t3" civilian="true" />
 		<equipment slot="Horse"
 				   id="Item.empire_horse" />
 		<equipment slot="HorseHarness"
 				   id="Item.stripped_leather_harness" />
-      <EquipmentSet id="empire_troop_civilian_template_t3" civilian="true" />
     </Equipments>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.empire_girl_s_ct5" />
-		</upgrade_targets>
 	</NPCCharacter>
 
 	<NPCCharacter id="empire_girl_s_ct5"
 				  default_group="Cavalry"
 				  is_female="true"
 				  level="26"
-				  civilianTemplate="NPCCharacter.empire_troop_civilian_template_t3"
 				  name="{=ihmjct5}Imperial Southern Heavy Equite"	 
 				  occupation="Soldier"
 				  culture="Culture.empire">
@@ -407,6 +404,7 @@
 			<skill id="Crossbow" value="30" />
 			<skill id="Throwing" value="70" />
 		</skills>
+		<upgrade_targets></upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.imperial_spear_t2" />
@@ -441,20 +439,18 @@
 			<equipment slot="Gloves" id="Item.decorated_imperial_gauntlets" />
 			<equipment slot="Leg" id="Item.decorated_imperial_boots" />
       </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t1" civilian="true" />
 		<equipment slot="Horse"
 				   id="Item.t2_empire_horse" />
 		<equipment slot="HorseHarness"
 				   id="Item.half_scale_barding" />
-      <EquipmentSet id="empire_troop_civilian_template_t1" civilian="true" />
     </Equipments>
-		<upgrade_targets></upgrade_targets>
 	</NPCCharacter>
 
 	<NPCCharacter id="empire_girl_s_at2"
 				  default_group="Ranged"
 				  is_female="true"
 				  level="11"
-				  civilianTemplate="NPCCharacter.empire_troop_civilian_template_t2"
 				  name="{=}Imperial Southern Crossbow Private"
 				  occupation="Soldier"
 				  culture="Culture.empire">
@@ -472,6 +468,9 @@
 			<skill id="Crossbow" value="50" />
 			<skill id="Throwing" value="5" />
 		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.empire_girl_s_at3" />
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.crossbow_a" />
@@ -511,16 +510,12 @@
       </EquipmentRoster>
       <EquipmentSet id="empire_troop_civilian_template_t1" civilian="true" />
     </Equipments>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.empire_girl_s_at3" />
-		</upgrade_targets>
 	</NPCCharacter>
 
 	<NPCCharacter id="empire_girl_s_at3"
 				  default_group="Ranged"
 				  is_female="true"
 				  level="16"
-				  civilianTemplate="NPCCharacter.empire_troop_civilian_template_t2"
 				  name="{=}Imperial Southern Crossbow Regular"
 				  occupation="Soldier"
 				  culture="Culture.empire">
@@ -538,6 +533,9 @@
 			<skill id="Crossbow" value="80" />
 			<skill id="Throwing" value="30" />
 		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.empire_girl_s_at4" />
+		</upgrade_targets>	
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.crossbow_a" />
@@ -607,16 +605,12 @@
       </EquipmentRoster>
       <EquipmentSet id="empire_troop_civilian_template_t1" civilian="true" />
     </Equipments>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.empire_girl_s_at4" />
-		</upgrade_targets>	
 	</NPCCharacter>
 
 	<NPCCharacter id="empire_girl_s_at4"
 				  default_group="Ranged"
 				  is_female="true"
 				  level="21"
-				  civilianTemplate="NPCCharacter.empire_troop_civilian_template_t2"
 				  name="{=}Imperial Southern Crossbow Veteran"	 
 				  occupation="Soldier"
 				  culture="Culture.empire">
@@ -634,6 +628,10 @@
 			<skill id="Crossbow" value="110" />
 			<skill id="Throwing" value="45" />
 		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.empire_girl_s_at5" />
+			<upgrade_target id="NPCCharacter.empire_girl_s_atc5" />
+		</upgrade_targets>	
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.crossbow_g" />
@@ -667,18 +665,12 @@
       </EquipmentRoster>
       <EquipmentSet id="empire_troop_civilian_template_t2" civilian="true" />
     </Equipments>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.empire_girl_s_at5" />
-			<upgrade_target id="NPCCharacter.empire_girl_s_atc5" />
-
-		</upgrade_targets>	
 	</NPCCharacter>
 
 	<NPCCharacter id="empire_girl_s_at5"
 				  default_group="Ranged"
 				  is_female="true"
 				  level="26"
-				  civilianTemplate="NPCCharacter.empire_troop_civilian_template_t3"
 				  name="{=}Imperial Southern Scorpiarius"	 
 				  occupation="Soldier"
 				  culture="Culture.empire">
@@ -738,7 +730,6 @@
 				  default_group="HorseArcher"
 				  is_female="true"
 				  level="26"
-				  civilianTemplate="NPCCharacter.empire_troop_civilian_template_t3"
 				  name="{=}Imperial Southern Bucellarii"	
 				  upgrade_requires="ItemCategory.war_horse"
 				  occupation="Soldier"
@@ -757,6 +748,7 @@
 			<skill id="Crossbow" value="120" />
 			<skill id="Throwing" value="50" />
 		</skills>
+		<upgrade_targets></upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.composite_steppe_bow" />
@@ -790,13 +782,12 @@
 			<equipment slot="Gloves" id="Item.decorated_imperial_gauntlets" />
 			<equipment slot="Leg" id="Item.strapped_mail_chausses" />
       </EquipmentRoster>
+      <EquipmentSet id="empire_troop_civilian_template_t1" civilian="true" />
 		<equipment slot="Horse"
 				   id="Item.t2_empire_horse" />
 		<equipment slot="HorseHarness"
 				   id="Item.half_scale_barding" />
-      <EquipmentSet id="empire_troop_civilian_template_t1" civilian="true" />
     </Equipments>
-		<upgrade_targets></upgrade_targets>
 	</NPCCharacter>
 
 

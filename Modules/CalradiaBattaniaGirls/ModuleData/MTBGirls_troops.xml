@@ -25,6 +25,10 @@
 			<skill id="Crossbow" value="5" />
 			<skill id="Throwing" value="5" />
 		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.battanian_girl_it2" />
+			<upgrade_target id="NPCCharacter.battanian_girl_st2" />
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.peasant_maul_t1_2" />
@@ -63,10 +67,6 @@
       </EquipmentRoster>
       <EquipmentSet id="battania_troop_civilian_template_t1" civilian="true" />
     </Equipments>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.battanian_girl_it2" />
-			<upgrade_target id="NPCCharacter.battanian_girl_st2" />
-		</upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="battanian_girl_it2"
 				  default_group="Infantry"
@@ -89,6 +89,9 @@
 			<skill id="Crossbow" value="5" />
 			<skill id="Throwing" value="5" />
 		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.battanian_girl_it3" />
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.lowland_throwing_knife" />
@@ -126,9 +129,6 @@
       </EquipmentRoster>
       <EquipmentSet id="battania_troop_civilian_template_t1" civilian="true" />
     </Equipments>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.battanian_girl_it3" />
-		</upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="battanian_girl_it3"
 				  default_group="Infantry"
@@ -151,6 +151,10 @@
 			<skill id="Crossbow" value="15" />
 			<skill id="Throwing" value="40" />
 		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.battanian_girl_it4" />
+			<upgrade_target id="NPCCharacter.battanian_girl_hit4" />
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.battania_mace_2_t2" />
@@ -184,10 +188,6 @@
       </EquipmentRoster>
       <EquipmentSet id="battania_troop_civilian_template_t1" civilian="true" />
     </Equipments>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.battanian_girl_it4" />
-			<upgrade_target id="NPCCharacter.battanian_girl_hit4" />
-		</upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="battanian_girl_it4"
 				  default_group="Infantry"
@@ -210,6 +210,10 @@
 			<skill id="Crossbow" value="15" />
 			<skill id="Throwing" value="70" />
 		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.battanian_girl_it5" />
+			<upgrade_target id="NPCCharacter.battanian_girl_ct5" />
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.northern_spear_2_t3" />
@@ -246,11 +250,6 @@
       </EquipmentRoster>
       <EquipmentSet id="battania_troop_civilian_template_t1" civilian="true" />
     </Equipments>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.battanian_girl_it5" />
-			<upgrade_target id="NPCCharacter.battanian_girl_ct5" />
-
-		</upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="battanian_girl_it5"
 				  default_group="Infantry"
@@ -273,6 +272,7 @@
 			<skill id="Crossbow" value="20" />
 			<skill id="Throwing" value="100" />
 		</skills>
+		<upgrade_targets></upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.northern_spear_2_t3" />
@@ -309,7 +309,6 @@
       </EquipmentRoster>
       <EquipmentSet id="battania_troop_civilian_template_t1" civilian="true" />
     </Equipments>
-		<upgrade_targets></upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="battanian_girl_ct5"
 				  default_group="Cavalry"
@@ -333,6 +332,7 @@
 			<skill id="Crossbow" value="20" />
 			<skill id="Throwing" value="100" />
 		</skills>
+		<upgrade_targets></upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.battania_polearm_1_t5" />
@@ -367,13 +367,12 @@
 			<equipment slot="Gloves" id="Item.northern_brass_bracers" />
 			<equipment slot="Leg" id="Item.battania_fur_boots" />
       </EquipmentRoster>
+      <EquipmentSet id="battania_troop_civilian_template_t1" civilian="true" />
 		<equipment slot="Horse"
 				   id="Item.t2_battania_horse" />
 		<equipment slot="HorseHarness"
 				   id="Item.battania_horse_harness_halfscaled" />
-      <EquipmentSet id="battania_troop_civilian_template_t1" civilian="true" />
     </Equipments>
-		<upgrade_targets></upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="battanian_girl_hit4"
 				  default_group="Infantry"
@@ -396,6 +395,9 @@
 			<skill id="Crossbow" value="15" />
 			<skill id="Throwing" value="60" />
 		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.battanian_girl_hit5" />
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.battania_2hsword_4_t4" />
@@ -427,9 +429,6 @@
       </EquipmentRoster>
       <EquipmentSet id="battania_troop_civilian_template_t1" civilian="true" />
     </Equipments>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.battanian_girl_hit5" />
-		</upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="battanian_girl_hit5"
 				  default_group="Infantry"
@@ -452,6 +451,7 @@
 			<skill id="Crossbow" value="20" />
 			<skill id="Throwing" value="120" />
 		</skills>
+		<upgrade_targets></upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.battania_polearm_1_t5" />
@@ -488,7 +488,6 @@
       </EquipmentRoster>
       <EquipmentSet id="battania_troop_civilian_template_t1" civilian="true" />
     </Equipments>
-		<upgrade_targets></upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="battanian_girl_st2"
 				  default_group="Infantry"
@@ -511,6 +510,10 @@
 			<skill id="Crossbow" value="5" />
 			<skill id="Throwing" value="40" />
 		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.battanian_girl_rt3" />
+			<upgrade_target id="NPCCharacter.battanian_girl_st3" />
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.battania_axe_1_t2" />                 
@@ -551,10 +554,6 @@
       </EquipmentRoster>
       <EquipmentSet id="battania_troop_civilian_template_t2" civilian="true" />
     </Equipments>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.battanian_girl_rt3" />
-			<upgrade_target id="NPCCharacter.battanian_girl_st3" />
-		</upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="battanian_girl_rt3"
 				  default_group="Ranged"
@@ -577,6 +576,9 @@
 			<skill id="Crossbow" value="10" />
 			<skill id="Throwing" value="40" />
 		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.battanian_girl_rt4" />
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.mountain_hunting_bow" />
@@ -608,9 +610,6 @@
       </EquipmentRoster>
       <EquipmentSet id="battania_troop_civilian_template_t2" civilian="true" />
     </Equipments>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.battanian_girl_rt4" />
-		</upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="battanian_girl_rt4"
 				  default_group="Ranged"
@@ -633,6 +632,9 @@
 			<skill id="Crossbow" value="15" />
 			<skill id="Throwing" value="40" />
 		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.battanian_girl_rt5" />
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.glen_ranger_bow" />
@@ -669,15 +671,11 @@
       </EquipmentRoster>
       <EquipmentSet id="battania_troop_civilian_template_t2" civilian="true" />
     </Equipments>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.battanian_girl_rt5" />
-		</upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="battanian_girl_rt5"
 				  default_group="Ranged"
 				  is_female="true"
 				  level="26"
-				  civilianTemplate="NPCCharacter.battania_troop_civilian_template_t3"
 				  name="{=bhmjrt5}Battanian Saethwyr Maiden"
 				  occupation="Soldier"
 				  culture="Culture.battania">
@@ -695,6 +693,7 @@
 			<skill id="Crossbow" value="20" />
 			<skill id="Throwing" value="50" />
 		</skills>
+		<upgrade_targets></upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.woodland_yew_bow" />
@@ -731,13 +730,11 @@
       </EquipmentRoster>
       <EquipmentSet id="battania_troop_civilian_template_t2" civilian="true" />
     </Equipments>
-		<upgrade_targets></upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="battanian_girl_st3"
 				  default_group="Infantry"
 				  is_female="true"
 				  level="16"
-				  civilianTemplate="NPCCharacter.battania_troop_civilian_template_t1"
 				  name="{=bhmjst3}Battanian Sister"
 				  occupation="Soldier"
 				  culture="Culture.battania">
@@ -755,6 +752,10 @@
 			<skill id="Crossbow" value="10" />
 			<skill id="Throwing" value="80" />
 		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.battanian_girl_st4" />
+			<upgrade_target id="NPCCharacter.battanian_girl_hst4" />
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0" id="Item.battania_axe_1_t2" />
@@ -791,10 +792,6 @@
       </EquipmentRoster>
       <EquipmentSet id="battania_troop_civilian_template_t2" civilian="true" />
     </Equipments>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.battanian_girl_st4" />
-			<upgrade_target id="NPCCharacter.battanian_girl_hst4" />
-		</upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="battanian_girl_st4"
 				  default_group="Infantry"
@@ -817,6 +814,9 @@
 			<skill id="Crossbow" value="20" />
 			<skill id="Throwing" value="115" />
 		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.battanian_girl_st5" />
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0"	id="Item.woodland_axe_t3" />
@@ -853,9 +853,6 @@
      </EquipmentRoster>
       <EquipmentSet id="battania_troop_civilian_template_t2" civilian="true" />
     </Equipments>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.battanian_girl_st5" />
-		</upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="battanian_girl_st5"
 				  default_group="Infantry"
@@ -878,6 +875,7 @@
 			<skill id="Crossbow" value="20" />
 			<skill id="Throwing" value="140" />
 		</skills>
+		<upgrade_targets></upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0"	id="Item.western_javelin_3_t4" />
@@ -925,7 +923,6 @@
      </EquipmentRoster>
       <EquipmentSet id="battania_troop_civilian_template_t2" civilian="true" />
     </Equipments>
-		<upgrade_targets></upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="battanian_girl_hst4"
 				  default_group="Cavalry"
@@ -949,6 +946,9 @@
 			<skill id="Crossbow" value="15" />
 			<skill id="Throwing" value="100" />
 		</skills>
+		<upgrade_targets>
+			<upgrade_target id="NPCCharacter.battanian_girl_hst5" />		
+		</upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0"	id="Item.woodland_axe_t3" />
@@ -983,15 +983,12 @@
 			<equipment slot="Gloves" id="Item.studded_vambraces" />
 			<equipment slot="Leg" id="Item.battania_woodland_boots" />
      </EquipmentRoster>
+      <EquipmentSet id="battania_troop_civilian_template_t2" civilian="true" />
 		<equipment slot="Horse"
 				   id="Item.battania_horse" />
 		<equipment slot="HorseHarness"
 				   id="Item.bandit_saddle_highland" />
-      <EquipmentSet id="battania_troop_civilian_template_t2" civilian="true" />
     </Equipments>
-		<upgrade_targets>
-			<upgrade_target id="NPCCharacter.battanian_girl_hst5" />		
-		</upgrade_targets>
 	</NPCCharacter>
 	<NPCCharacter id="battanian_girl_hst5"
 				  default_group="Cavalry"
@@ -1015,6 +1012,7 @@
 			<skill id="Crossbow" value="20" />
 			<skill id="Throwing" value="150" />
 		</skills>
+		<upgrade_targets></upgrade_targets>
     <Equipments>
       <EquipmentRoster>
 			<equipment slot="Item0"	id="Item.battania_sword_4_t4" />
@@ -1027,13 +1025,12 @@
 			<equipment slot="Gloves" id="Item.rough_tied_bracers" />
 			<equipment slot="Leg" id="Item.battania_fur_boots" />
       </EquipmentRoster>
+      <EquipmentSet id="battania_troop_civilian_template_t2" civilian="true" />
 		<equipment slot="Horse"
 				   id="Item.t2_battania_horse" />
 		<equipment slot="HorseHarness"
 				   id="Item.battania_horse_harness" />
-      <EquipmentSet id="battania_troop_civilian_template_t2" civilian="true" />
     </Equipments>
-		<upgrade_targets></upgrade_targets>
 	</NPCCharacter>
 
 	
